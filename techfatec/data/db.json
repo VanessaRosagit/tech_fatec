@@ -1,0 +1,7766 @@
+{
+ "_meta": {
+  "projeto": "TechFatec",
+  "versao": 1,
+  "dataReferencia": "2026-09-30",
+  "aviso": "DADOS DE EXEMPLO para o protótipo. Valores visíveis no wireframe foram mantidos; o restante foi gerado para o sistema funcionar. Substitua por dados reais da Fatec."
+ },
+ "usuarios": [
+  {
+   "id": 1,
+   "nome": "Gestor Demonstração",
+   "email": "gestor@fatec.com",
+   "perfil": "gestor",
+   "senhaHash": "540e0697b1ecfeb3bc132375ae04d2669f24d70fefce74706519f494060539ad"
+  },
+  {
+   "id": 2,
+   "nome": "Professor Demonstração",
+   "email": "professor@fatec.com",
+   "perfil": "gestor",
+   "senhaHash": "540e0697b1ecfeb3bc132375ae04d2669f24d70fefce74706519f494060539ad"
+  }
+ ],
+ "periodos": [
+  {
+   "id": "jan-fev",
+   "rotulo": "Jan–Fev 2026",
+   "inicio": "2026-01-01",
+   "fim": "2026-02-28"
+  },
+  {
+   "id": "mar-abr",
+   "rotulo": "Mar–Abr 2026",
+   "inicio": "2026-03-01",
+   "fim": "2026-04-30"
+  },
+  {
+   "id": "mai-jun",
+   "rotulo": "Mai–Jun 2026",
+   "inicio": "2026-05-01",
+   "fim": "2026-06-30"
+  },
+  {
+   "id": "jul",
+   "rotulo": "Jul 2026",
+   "inicio": "2026-07-01",
+   "fim": "2026-07-31"
+  },
+  {
+   "id": "ago-set",
+   "rotulo": "Ago–Set 2026",
+   "inicio": "2026-08-01",
+   "fim": "2026-09-30"
+  },
+  {
+   "id": "ano",
+   "rotulo": "Ano 2026 (acumulado)",
+   "inicio": "2026-01-01",
+   "fim": "2026-12-31"
+  }
+ ],
+ "semestres": [
+  {
+   "id": "2024-2",
+   "rotulo": "2º Semestre 2024",
+   "inicio": "2024-08-01",
+   "fim": "2024-12-20"
+  },
+  {
+   "id": "2025-1",
+   "rotulo": "1º Semestre 2025",
+   "inicio": "2025-02-01",
+   "fim": "2025-07-15"
+  },
+  {
+   "id": "2026-1",
+   "rotulo": "1º Semestre 2026",
+   "inicio": "2026-02-01",
+   "fim": "2026-07-15"
+  },
+  {
+   "id": "2026-2",
+   "rotulo": "2º Semestre 2026",
+   "inicio": "2026-08-01",
+   "fim": "2026-12-20"
+  }
+ ],
+ "professores": [
+  {
+   "id": 1,
+   "nome": "Turing"
+  },
+  {
+   "id": 2,
+   "nome": "Lovelace"
+  },
+  {
+   "id": 3,
+   "nome": "Hopper"
+  },
+  {
+   "id": 4,
+   "nome": "Hamilton"
+  },
+  {
+   "id": 5,
+   "nome": "Knuth"
+  },
+  {
+   "id": 6,
+   "nome": "Dijkstra"
+  }
+ ],
+ "disciplinas": [
+  {
+   "id": 1,
+   "nome": "Algoritmos e Lógica de Programação",
+   "semestreCurso": 1,
+   "professorId": 1,
+   "area": "Programação"
+  },
+  {
+   "id": 2,
+   "nome": "Bases para Internet",
+   "semestreCurso": 1,
+   "professorId": 2,
+   "area": "Programação"
+  },
+  {
+   "id": 3,
+   "nome": "Criação de Conteúdos na Web",
+   "semestreCurso": 1,
+   "professorId": 3,
+   "area": "Programação"
+  },
+  {
+   "id": 4,
+   "nome": "Design Digital",
+   "semestreCurso": 1,
+   "professorId": 4,
+   "area": "Design"
+  },
+  {
+   "id": 5,
+   "nome": "Fundamentos de Matemática Elementar",
+   "semestreCurso": 1,
+   "professorId": 5,
+   "area": "Dados"
+  },
+  {
+   "id": 6,
+   "nome": "Inglês I",
+   "semestreCurso": 1,
+   "professorId": 6,
+   "area": "Outros"
+  },
+  {
+   "id": 7,
+   "nome": "Inglês II",
+   "semestreCurso": 2,
+   "professorId": 6,
+   "area": "Outros"
+  },
+  {
+   "id": 8,
+   "nome": "Matemática Discreta",
+   "semestreCurso": 2,
+   "professorId": 5,
+   "area": "Dados"
+  },
+  {
+   "id": 9,
+   "nome": "Padrões de Projeto de Software e Internet",
+   "semestreCurso": 2,
+   "professorId": 1,
+   "area": "Programação"
+  },
+  {
+   "id": 10,
+   "nome": "Inglês IV",
+   "semestreCurso": 4,
+   "professorId": 6,
+   "area": "Outros"
+  },
+  {
+   "id": 11,
+   "nome": "Estatística",
+   "semestreCurso": 4,
+   "professorId": 5,
+   "area": "Dados"
+  },
+  {
+   "id": 12,
+   "nome": "Inglês V",
+   "semestreCurso": 5,
+   "professorId": 6,
+   "area": "Outros"
+  },
+  {
+   "id": 13,
+   "nome": "Segurança em Sistemas",
+   "semestreCurso": 5,
+   "professorId": 3,
+   "area": "Programação"
+  }
+ ],
+ "grupos": [
+  {
+   "id": 1,
+   "nome": "Dev Web com React",
+   "area": "Programação",
+   "modalidade": "Online",
+   "participantes": 22,
+   "status": "Ativo",
+   "criadoEm": "2026-07-06",
+   "encerradoEm": null
+  },
+  {
+   "id": 2,
+   "nome": "Java e Spring Boot",
+   "area": "Programação",
+   "modalidade": "Presencial",
+   "participantes": 11,
+   "status": "Ativo",
+   "criadoEm": "2026-04-28",
+   "encerradoEm": null
+  },
+  {
+   "id": 3,
+   "nome": "Python para Iniciantes",
+   "area": "Programação",
+   "modalidade": "Presencial",
+   "participantes": 9,
+   "status": "Ativo",
+   "criadoEm": "2026-09-11",
+   "encerradoEm": null
+  },
+  {
+   "id": 4,
+   "nome": "JavaScript Moderno",
+   "area": "Programação",
+   "modalidade": "Híbrido",
+   "participantes": 11,
+   "status": "Ativo",
+   "criadoEm": "2026-01-26",
+   "encerradoEm": null
+  },
+  {
+   "id": 5,
+   "nome": "Algoritmos e Estruturas de Dados",
+   "area": "Programação",
+   "modalidade": "Presencial",
+   "participantes": 9,
+   "status": "Ativo",
+   "criadoEm": "2025-11-06",
+   "encerradoEm": null
+  },
+  {
+   "id": 6,
+   "nome": "Node.js e APIs REST",
+   "area": "Programação",
+   "modalidade": "Presencial",
+   "participantes": 14,
+   "status": "Ativo",
+   "criadoEm": "2026-07-14",
+   "encerradoEm": null
+  },
+  {
+   "id": 7,
+   "nome": "TypeScript na Prática",
+   "area": "Programação",
+   "modalidade": "Online",
+   "participantes": 13,
+   "status": "Ativo",
+   "criadoEm": "2026-06-29",
+   "encerradoEm": null
+  },
+  {
+   "id": 8,
+   "nome": "HTML e CSS Avançado",
+   "area": "Programação",
+   "modalidade": "Online",
+   "participantes": 13,
+   "status": "Ativo",
+   "criadoEm": "2026-03-05",
+   "encerradoEm": null
+  },
+  {
+   "id": 9,
+   "nome": "Programação Orientada a Objetos",
+   "area": "Programação",
+   "modalidade": "Presencial",
+   "participantes": 13,
+   "status": "Ativo",
+   "criadoEm": "2026-04-02",
+   "encerradoEm": null
+  },
+  {
+   "id": 10,
+   "nome": "Git e GitHub",
+   "area": "Programação",
+   "modalidade": "Online",
+   "participantes": 12,
+   "status": "Ativo",
+   "criadoEm": "2026-09-01",
+   "encerradoEm": null
+  },
+  {
+   "id": 11,
+   "nome": "Desenvolvimento Mobile com Flutter",
+   "area": "Programação",
+   "modalidade": "Online",
+   "participantes": 11,
+   "status": "Ativo",
+   "criadoEm": "2025-08-26",
+   "encerradoEm": null
+  },
+  {
+   "id": 12,
+   "nome": "Clean Code",
+   "area": "Programação",
+   "modalidade": "Híbrido",
+   "participantes": 13,
+   "status": "Ativo",
+   "criadoEm": "2026-07-09",
+   "encerradoEm": null
+  },
+  {
+   "id": 13,
+   "nome": "Testes Automatizados",
+   "area": "Programação",
+   "modalidade": "Online",
+   "participantes": 14,
+   "status": "Ativo",
+   "criadoEm": "2026-09-04",
+   "encerradoEm": null
+  },
+  {
+   "id": 14,
+   "nome": "Next.js",
+   "area": "Programação",
+   "modalidade": "Presencial",
+   "participantes": 10,
+   "status": "Ativo",
+   "criadoEm": "2026-04-06",
+   "encerradoEm": null
+  },
+  {
+   "id": 15,
+   "nome": "Banco de Dados Avançado",
+   "area": "BD & SQL",
+   "modalidade": "Presencial",
+   "participantes": 14,
+   "status": "Ativo",
+   "criadoEm": "2026-01-09",
+   "encerradoEm": null
+  },
+  {
+   "id": 16,
+   "nome": "SQL do Zero",
+   "area": "BD & SQL",
+   "modalidade": "Presencial",
+   "participantes": 9,
+   "status": "Ativo",
+   "criadoEm": "2025-10-11",
+   "encerradoEm": null
+  },
+  {
+   "id": 17,
+   "nome": "Modelagem de Dados",
+   "area": "BD & SQL",
+   "modalidade": "Online",
+   "participantes": 13,
+   "status": "Ativo",
+   "criadoEm": "2025-09-16",
+   "encerradoEm": null
+  },
+  {
+   "id": 18,
+   "nome": "PostgreSQL na Prática",
+   "area": "BD & SQL",
+   "modalidade": "Online",
+   "participantes": 14,
+   "status": "Ativo",
+   "criadoEm": "2025-11-30",
+   "encerradoEm": null
+  },
+  {
+   "id": 19,
+   "nome": "MongoDB e NoSQL",
+   "area": "BD & SQL",
+   "modalidade": "Online",
+   "participantes": 14,
+   "status": "Ativo",
+   "criadoEm": "2026-03-06",
+   "encerradoEm": null
+  },
+  {
+   "id": 20,
+   "nome": "Otimização de Consultas",
+   "area": "BD & SQL",
+   "modalidade": "Online",
+   "participantes": 14,
+   "status": "Ativo",
+   "criadoEm": "2025-08-18",
+   "encerradoEm": null
+  },
+  {
+   "id": 21,
+   "nome": "Data Warehouse",
+   "area": "BD & SQL",
+   "modalidade": "Online",
+   "participantes": 14,
+   "status": "Ativo",
+   "criadoEm": "2025-12-20",
+   "encerradoEm": null
+  },
+  {
+   "id": 22,
+   "nome": "SQL Server para Desenvolvedores",
+   "area": "BD & SQL",
+   "modalidade": "Híbrido",
+   "participantes": 12,
+   "status": "Ativo",
+   "criadoEm": "2026-04-11",
+   "encerradoEm": null
+  },
+  {
+   "id": 23,
+   "nome": "Administração de Banco de Dados",
+   "area": "BD & SQL",
+   "modalidade": "Online",
+   "participantes": 10,
+   "status": "Ativo",
+   "criadoEm": "2026-01-13",
+   "encerradoEm": null
+  },
+  {
+   "id": 24,
+   "nome": "Redes de Computadores",
+   "area": "Infraestrutura",
+   "modalidade": "Híbrido",
+   "participantes": 18,
+   "status": "Ativo",
+   "criadoEm": "2026-05-17",
+   "encerradoEm": null
+  },
+  {
+   "id": 25,
+   "nome": "Linux para Iniciantes",
+   "area": "Infraestrutura",
+   "modalidade": "Híbrido",
+   "participantes": 13,
+   "status": "Ativo",
+   "criadoEm": "2026-05-21",
+   "encerradoEm": null
+  },
+  {
+   "id": 26,
+   "nome": "Docker e Contêineres",
+   "area": "Infraestrutura",
+   "modalidade": "Online",
+   "participantes": 14,
+   "status": "Ativo",
+   "criadoEm": "2026-01-25",
+   "encerradoEm": null
+  },
+  {
+   "id": 27,
+   "nome": "Cloud com AWS",
+   "area": "Infraestrutura",
+   "modalidade": "Presencial",
+   "participantes": 11,
+   "status": "Ativo",
+   "criadoEm": "2025-10-11",
+   "encerradoEm": null
+  },
+  {
+   "id": 28,
+   "nome": "Kubernetes Essencial",
+   "area": "Infraestrutura",
+   "modalidade": "Híbrido",
+   "participantes": 9,
+   "status": "Ativo",
+   "criadoEm": "2026-06-10",
+   "encerradoEm": null
+  },
+  {
+   "id": 29,
+   "nome": "DevOps e CI/CD",
+   "area": "Infraestrutura",
+   "modalidade": "Presencial",
+   "participantes": 14,
+   "status": "Ativo",
+   "criadoEm": "2026-08-17",
+   "encerradoEm": null
+  },
+  {
+   "id": 30,
+   "nome": "Servidores Web",
+   "area": "Infraestrutura",
+   "modalidade": "Híbrido",
+   "participantes": 14,
+   "status": "Ativo",
+   "criadoEm": "2026-08-22",
+   "encerradoEm": null
+  },
+  {
+   "id": 31,
+   "nome": "Virtualização",
+   "area": "Infraestrutura",
+   "modalidade": "Online",
+   "participantes": 12,
+   "status": "Ativo",
+   "criadoEm": "2026-05-12",
+   "encerradoEm": null
+  },
+  {
+   "id": 32,
+   "nome": "Monitoramento e Observabilidade",
+   "area": "Infraestrutura",
+   "modalidade": "Online",
+   "participantes": 13,
+   "status": "Ativo",
+   "criadoEm": "2025-12-10",
+   "encerradoEm": null
+  },
+  {
+   "id": 33,
+   "nome": "Azure Fundamentals",
+   "area": "Infraestrutura",
+   "modalidade": "Online",
+   "participantes": 13,
+   "status": "Ativo",
+   "criadoEm": "2026-08-10",
+   "encerradoEm": null
+  },
+  {
+   "id": 34,
+   "nome": "Machine Learning Básico",
+   "area": "IA & Dados",
+   "modalidade": "Online",
+   "participantes": 19,
+   "status": "Ativo",
+   "criadoEm": "2025-12-12",
+   "encerradoEm": null
+  },
+  {
+   "id": 35,
+   "nome": "Ciência de Dados com Python",
+   "area": "IA & Dados",
+   "modalidade": "Online",
+   "participantes": 10,
+   "status": "Ativo",
+   "criadoEm": "2026-04-11",
+   "encerradoEm": null
+  },
+  {
+   "id": 36,
+   "nome": "Visualização de Dados",
+   "area": "IA & Dados",
+   "modalidade": "Online",
+   "participantes": 13,
+   "status": "Ativo",
+   "criadoEm": "2026-09-18",
+   "encerradoEm": null
+  },
+  {
+   "id": 37,
+   "nome": "Introdução a IA Generativa",
+   "area": "IA & Dados",
+   "modalidade": "Online",
+   "participantes": 10,
+   "status": "Ativo",
+   "criadoEm": "2026-04-23",
+   "encerradoEm": null
+  },
+  {
+   "id": 38,
+   "nome": "Análise Exploratória de Dados",
+   "area": "IA & Dados",
+   "modalidade": "Presencial",
+   "participantes": 14,
+   "status": "Ativo",
+   "criadoEm": "2026-09-25",
+   "encerradoEm": null
+  },
+  {
+   "id": 39,
+   "nome": "Deep Learning",
+   "area": "IA & Dados",
+   "modalidade": "Presencial",
+   "participantes": 14,
+   "status": "Ativo",
+   "criadoEm": "2025-09-28",
+   "encerradoEm": null
+  },
+  {
+   "id": 40,
+   "nome": "Power BI",
+   "area": "IA & Dados",
+   "modalidade": "Híbrido",
+   "participantes": 14,
+   "status": "Ativo",
+   "criadoEm": "2026-06-01",
+   "encerradoEm": null
+  },
+  {
+   "id": 41,
+   "nome": "Processamento de Linguagem Natural",
+   "area": "IA & Dados",
+   "modalidade": "Presencial",
+   "participantes": 14,
+   "status": "Ativo",
+   "criadoEm": "2026-01-18",
+   "encerradoEm": null
+  },
+  {
+   "id": 42,
+   "nome": "Segurança da Informação",
+   "area": "Segurança",
+   "modalidade": "Híbrido",
+   "participantes": 9,
+   "status": "Ativo",
+   "criadoEm": "2026-08-09",
+   "encerradoEm": null
+  },
+  {
+   "id": 43,
+   "nome": "Pentest Introdutório",
+   "area": "Segurança",
+   "modalidade": "Online",
+   "participantes": 13,
+   "status": "Ativo",
+   "criadoEm": "2026-07-18",
+   "encerradoEm": null
+  },
+  {
+   "id": 44,
+   "nome": "Criptografia Aplicada",
+   "area": "Segurança",
+   "modalidade": "Online",
+   "participantes": 12,
+   "status": "Ativo",
+   "criadoEm": "2025-08-15",
+   "encerradoEm": null
+  },
+  {
+   "id": 45,
+   "nome": "Segurança em Aplicações Web",
+   "area": "Segurança",
+   "modalidade": "Híbrido",
+   "participantes": 14,
+   "status": "Ativo",
+   "criadoEm": "2026-09-05",
+   "encerradoEm": null
+  },
+  {
+   "id": 46,
+   "nome": "LGPD na Prática",
+   "area": "Segurança",
+   "modalidade": "Presencial",
+   "participantes": 11,
+   "status": "Ativo",
+   "criadoEm": "2026-01-28",
+   "encerradoEm": null
+  },
+  {
+   "id": 47,
+   "nome": "Forense Digital",
+   "area": "Segurança",
+   "modalidade": "Online",
+   "participantes": 14,
+   "status": "Ativo",
+   "criadoEm": "2025-10-30",
+   "encerradoEm": null
+  },
+  {
+   "id": 48,
+   "nome": "Hardening de Servidores",
+   "area": "Segurança",
+   "modalidade": "Online",
+   "participantes": 9,
+   "status": "Ativo",
+   "criadoEm": "2025-08-22",
+   "encerradoEm": null
+  },
+  {
+   "id": 49,
+   "nome": "Excel Avançado",
+   "area": "IA & Dados",
+   "modalidade": "Online",
+   "participantes": 10,
+   "status": "Encerrado",
+   "criadoEm": "2025-12-05",
+   "encerradoEm": "2026-09-27"
+  },
+  {
+   "id": 50,
+   "nome": "Lógica de Programação Básica",
+   "area": "Programação",
+   "modalidade": "Presencial",
+   "participantes": 11,
+   "status": "Encerrado",
+   "criadoEm": "2025-10-07",
+   "encerradoEm": "2026-09-28"
+  },
+  {
+   "id": 51,
+   "nome": "Jogos com Unity",
+   "area": "Programação",
+   "modalidade": "Online",
+   "participantes": 10,
+   "status": "Encerrado",
+   "criadoEm": "2025-09-23",
+   "encerradoEm": "2026-09-13"
+  },
+  {
+   "id": 52,
+   "nome": "Robótica com Arduino",
+   "area": "Infraestrutura",
+   "modalidade": "Presencial",
+   "participantes": 11,
+   "status": "Encerrado",
+   "criadoEm": "2025-12-13",
+   "encerradoEm": "2026-07-31"
+  },
+  {
+   "id": 53,
+   "nome": "Bancos Relacionais Intro",
+   "area": "BD & SQL",
+   "modalidade": "Online",
+   "participantes": 12,
+   "status": "Encerrado",
+   "criadoEm": "2025-10-20",
+   "encerradoEm": "2026-05-12"
+  },
+  {
+   "id": 54,
+   "nome": "Introdução a Redes",
+   "area": "Infraestrutura",
+   "modalidade": "Híbrido",
+   "participantes": 11,
+   "status": "Encerrado",
+   "criadoEm": "2025-08-17",
+   "encerradoEm": "2026-07-28"
+  },
+  {
+   "id": 55,
+   "nome": "Segurança Básica",
+   "area": "Segurança",
+   "modalidade": "Online",
+   "participantes": 12,
+   "status": "Encerrado",
+   "criadoEm": "2026-03-12",
+   "encerradoEm": "2026-04-23"
+  },
+  {
+   "id": 56,
+   "nome": "Estatística com R",
+   "area": "IA & Dados",
+   "modalidade": "Híbrido",
+   "participantes": 10,
+   "status": "Encerrado",
+   "criadoEm": "2026-01-25",
+   "encerradoEm": "2026-06-22"
+  }
+ ],
+ "encontros": [
+  {
+   "id": 1,
+   "grupoId": 14,
+   "data": "2026-08-03",
+   "modalidade": "Presencial",
+   "realizado": true
+  },
+  {
+   "id": 2,
+   "grupoId": 14,
+   "data": "2026-08-04",
+   "modalidade": "Presencial",
+   "realizado": true
+  },
+  {
+   "id": 3,
+   "grupoId": 28,
+   "data": "2026-08-04",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 4,
+   "grupoId": 17,
+   "data": "2026-08-04",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 5,
+   "grupoId": 6,
+   "data": "2026-08-04",
+   "modalidade": "Presencial",
+   "realizado": true
+  },
+  {
+   "id": 6,
+   "grupoId": 43,
+   "data": "2026-08-05",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 7,
+   "grupoId": 16,
+   "data": "2026-08-05",
+   "modalidade": "Presencial",
+   "realizado": true
+  },
+  {
+   "id": 8,
+   "grupoId": 1,
+   "data": "2026-08-06",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 9,
+   "grupoId": 23,
+   "data": "2026-08-07",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 10,
+   "grupoId": 34,
+   "data": "2026-08-10",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 11,
+   "grupoId": 34,
+   "data": "2026-08-11",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 12,
+   "grupoId": 12,
+   "data": "2026-08-11",
+   "modalidade": "Presencial",
+   "realizado": true
+  },
+  {
+   "id": 13,
+   "grupoId": 23,
+   "data": "2026-08-11",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 14,
+   "grupoId": 21,
+   "data": "2026-08-11",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 15,
+   "grupoId": 8,
+   "data": "2026-08-11",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 16,
+   "grupoId": 21,
+   "data": "2026-08-12",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 17,
+   "grupoId": 2,
+   "data": "2026-08-13",
+   "modalidade": "Presencial",
+   "realizado": true
+  },
+  {
+   "id": 18,
+   "grupoId": 24,
+   "data": "2026-08-13",
+   "modalidade": "Presencial",
+   "realizado": true
+  },
+  {
+   "id": 19,
+   "grupoId": 34,
+   "data": "2026-08-13",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 20,
+   "grupoId": 17,
+   "data": "2026-08-13",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 21,
+   "grupoId": 16,
+   "data": "2026-08-13",
+   "modalidade": "Presencial",
+   "realizado": true
+  },
+  {
+   "id": 22,
+   "grupoId": 24,
+   "data": "2026-08-14",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 23,
+   "grupoId": 8,
+   "data": "2026-08-14",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 24,
+   "grupoId": 40,
+   "data": "2026-08-14",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 25,
+   "grupoId": 21,
+   "data": "2026-08-14",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 26,
+   "grupoId": 20,
+   "data": "2026-08-17",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 27,
+   "grupoId": 23,
+   "data": "2026-08-17",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 28,
+   "grupoId": 11,
+   "data": "2026-08-18",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 29,
+   "grupoId": 26,
+   "data": "2026-08-18",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 30,
+   "grupoId": 1,
+   "data": "2026-08-18",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 31,
+   "grupoId": 35,
+   "data": "2026-08-18",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 32,
+   "grupoId": 31,
+   "data": "2026-08-19",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 33,
+   "grupoId": 5,
+   "data": "2026-08-20",
+   "modalidade": "Presencial",
+   "realizado": true
+  },
+  {
+   "id": 34,
+   "grupoId": 18,
+   "data": "2026-08-21",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 35,
+   "grupoId": 9,
+   "data": "2026-08-21",
+   "modalidade": "Presencial",
+   "realizado": true
+  },
+  {
+   "id": 36,
+   "grupoId": 43,
+   "data": "2026-08-24",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 37,
+   "grupoId": 17,
+   "data": "2026-08-24",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 38,
+   "grupoId": 7,
+   "data": "2026-08-25",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 39,
+   "grupoId": 6,
+   "data": "2026-08-25",
+   "modalidade": "Presencial",
+   "realizado": true
+  },
+  {
+   "id": 40,
+   "grupoId": 15,
+   "data": "2026-08-25",
+   "modalidade": "Presencial",
+   "realizado": true
+  },
+  {
+   "id": 41,
+   "grupoId": 30,
+   "data": "2026-08-25",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 42,
+   "grupoId": 2,
+   "data": "2026-08-25",
+   "modalidade": "Presencial",
+   "realizado": true
+  },
+  {
+   "id": 43,
+   "grupoId": 21,
+   "data": "2026-08-26",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 44,
+   "grupoId": 33,
+   "data": "2026-08-26",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 45,
+   "grupoId": 37,
+   "data": "2026-08-26",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 46,
+   "grupoId": 30,
+   "data": "2026-08-27",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 47,
+   "grupoId": 7,
+   "data": "2026-08-27",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 48,
+   "grupoId": 42,
+   "data": "2026-08-28",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 49,
+   "grupoId": 24,
+   "data": "2026-08-28",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 50,
+   "grupoId": 27,
+   "data": "2026-08-28",
+   "modalidade": "Presencial",
+   "realizado": true
+  },
+  {
+   "id": 51,
+   "grupoId": 35,
+   "data": "2026-08-28",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 52,
+   "grupoId": 22,
+   "data": "2026-08-28",
+   "modalidade": "Presencial",
+   "realizado": true
+  },
+  {
+   "id": 53,
+   "grupoId": 48,
+   "data": "2026-08-31",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 54,
+   "grupoId": 12,
+   "data": "2026-08-31",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 55,
+   "grupoId": 6,
+   "data": "2026-09-01",
+   "modalidade": "Presencial",
+   "realizado": true
+  },
+  {
+   "id": 56,
+   "grupoId": 34,
+   "data": "2026-09-01",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 57,
+   "grupoId": 11,
+   "data": "2026-09-01",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 58,
+   "grupoId": 11,
+   "data": "2026-09-01",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 59,
+   "grupoId": 40,
+   "data": "2026-09-02",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 60,
+   "grupoId": 20,
+   "data": "2026-09-02",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 61,
+   "grupoId": 25,
+   "data": "2026-09-02",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 62,
+   "grupoId": 42,
+   "data": "2026-09-02",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 63,
+   "grupoId": 46,
+   "data": "2026-09-03",
+   "modalidade": "Presencial",
+   "realizado": true
+  },
+  {
+   "id": 64,
+   "grupoId": 40,
+   "data": "2026-09-03",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 65,
+   "grupoId": 23,
+   "data": "2026-09-03",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 66,
+   "grupoId": 46,
+   "data": "2026-09-04",
+   "modalidade": "Presencial",
+   "realizado": true
+  },
+  {
+   "id": 67,
+   "grupoId": 22,
+   "data": "2026-09-04",
+   "modalidade": "Presencial",
+   "realizado": true
+  },
+  {
+   "id": 68,
+   "grupoId": 9,
+   "data": "2026-09-07",
+   "modalidade": "Presencial",
+   "realizado": true
+  },
+  {
+   "id": 69,
+   "grupoId": 10,
+   "data": "2026-09-07",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 70,
+   "grupoId": 5,
+   "data": "2026-09-07",
+   "modalidade": "Presencial",
+   "realizado": true
+  },
+  {
+   "id": 71,
+   "grupoId": 46,
+   "data": "2026-09-07",
+   "modalidade": "Presencial",
+   "realizado": true
+  },
+  {
+   "id": 72,
+   "grupoId": 29,
+   "data": "2026-09-07",
+   "modalidade": "Presencial",
+   "realizado": true
+  },
+  {
+   "id": 73,
+   "grupoId": 25,
+   "data": "2026-09-07",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 74,
+   "grupoId": 32,
+   "data": "2026-09-07",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 75,
+   "grupoId": 43,
+   "data": "2026-09-08",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 76,
+   "grupoId": 29,
+   "data": "2026-09-08",
+   "modalidade": "Presencial",
+   "realizado": true
+  },
+  {
+   "id": 77,
+   "grupoId": 9,
+   "data": "2026-09-08",
+   "modalidade": "Presencial",
+   "realizado": true
+  },
+  {
+   "id": 78,
+   "grupoId": 43,
+   "data": "2026-09-08",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 79,
+   "grupoId": 8,
+   "data": "2026-09-09",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 80,
+   "grupoId": 31,
+   "data": "2026-09-09",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 81,
+   "grupoId": 48,
+   "data": "2026-09-09",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 82,
+   "grupoId": 14,
+   "data": "2026-09-09",
+   "modalidade": "Presencial",
+   "realizado": true
+  },
+  {
+   "id": 83,
+   "grupoId": 34,
+   "data": "2026-09-09",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 84,
+   "grupoId": 7,
+   "data": "2026-09-10",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 85,
+   "grupoId": 10,
+   "data": "2026-09-10",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 86,
+   "grupoId": 16,
+   "data": "2026-09-10",
+   "modalidade": "Presencial",
+   "realizado": true
+  },
+  {
+   "id": 87,
+   "grupoId": 31,
+   "data": "2026-09-11",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 88,
+   "grupoId": 19,
+   "data": "2026-09-11",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 89,
+   "grupoId": 15,
+   "data": "2026-09-14",
+   "modalidade": "Presencial",
+   "realizado": true
+  },
+  {
+   "id": 90,
+   "grupoId": 45,
+   "data": "2026-09-14",
+   "modalidade": "Presencial",
+   "realizado": true
+  },
+  {
+   "id": 91,
+   "grupoId": 12,
+   "data": "2026-09-15",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 92,
+   "grupoId": 30,
+   "data": "2026-09-15",
+   "modalidade": "Presencial",
+   "realizado": true
+  },
+  {
+   "id": 93,
+   "grupoId": 46,
+   "data": "2026-09-15",
+   "modalidade": "Presencial",
+   "realizado": true
+  },
+  {
+   "id": 94,
+   "grupoId": 17,
+   "data": "2026-09-15",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 95,
+   "grupoId": 29,
+   "data": "2026-09-15",
+   "modalidade": "Presencial",
+   "realizado": true
+  },
+  {
+   "id": 96,
+   "grupoId": 35,
+   "data": "2026-09-16",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 97,
+   "grupoId": 12,
+   "data": "2026-09-16",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 98,
+   "grupoId": 46,
+   "data": "2026-09-16",
+   "modalidade": "Presencial",
+   "realizado": true
+  },
+  {
+   "id": 99,
+   "grupoId": 40,
+   "data": "2026-09-16",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 100,
+   "grupoId": 30,
+   "data": "2026-09-16",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 101,
+   "grupoId": 24,
+   "data": "2026-09-17",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 102,
+   "grupoId": 22,
+   "data": "2026-09-17",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 103,
+   "grupoId": 10,
+   "data": "2026-09-18",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 104,
+   "grupoId": 8,
+   "data": "2026-09-18",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 105,
+   "grupoId": 25,
+   "data": "2026-09-18",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 106,
+   "grupoId": 45,
+   "data": "2026-09-18",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 107,
+   "grupoId": 18,
+   "data": "2026-09-21",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 108,
+   "grupoId": 18,
+   "data": "2026-09-21",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 109,
+   "grupoId": 34,
+   "data": "2026-09-21",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 110,
+   "grupoId": 18,
+   "data": "2026-09-22",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 111,
+   "grupoId": 4,
+   "data": "2026-09-23",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 112,
+   "grupoId": 42,
+   "data": "2026-09-23",
+   "modalidade": "Presencial",
+   "realizado": true
+  },
+  {
+   "id": 113,
+   "grupoId": 26,
+   "data": "2026-09-23",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 114,
+   "grupoId": 8,
+   "data": "2026-09-23",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 115,
+   "grupoId": 7,
+   "data": "2026-09-23",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 116,
+   "grupoId": 41,
+   "data": "2026-09-23",
+   "modalidade": "Presencial",
+   "realizado": true
+  },
+  {
+   "id": 117,
+   "grupoId": 44,
+   "data": "2026-09-23",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 118,
+   "grupoId": 20,
+   "data": "2026-09-24",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 119,
+   "grupoId": 32,
+   "data": "2026-09-24",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 120,
+   "grupoId": 16,
+   "data": "2026-09-24",
+   "modalidade": "Presencial",
+   "realizado": true
+  },
+  {
+   "id": 121,
+   "grupoId": 1,
+   "data": "2026-09-24",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 122,
+   "grupoId": 44,
+   "data": "2026-09-25",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 123,
+   "grupoId": 13,
+   "data": "2026-09-25",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 124,
+   "grupoId": 46,
+   "data": "2026-09-25",
+   "modalidade": "Presencial",
+   "realizado": true
+  },
+  {
+   "id": 125,
+   "grupoId": 30,
+   "data": "2026-09-28",
+   "modalidade": "Presencial",
+   "realizado": true
+  },
+  {
+   "id": 126,
+   "grupoId": 23,
+   "data": "2026-09-28",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 127,
+   "grupoId": 5,
+   "data": "2026-09-28",
+   "modalidade": "Presencial",
+   "realizado": true
+  },
+  {
+   "id": 128,
+   "grupoId": 10,
+   "data": "2026-09-29",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 129,
+   "grupoId": 42,
+   "data": "2026-09-29",
+   "modalidade": "Presencial",
+   "realizado": true
+  },
+  {
+   "id": 130,
+   "grupoId": 10,
+   "data": "2026-09-29",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 131,
+   "grupoId": 46,
+   "data": "2026-09-29",
+   "modalidade": "Presencial",
+   "realizado": true
+  },
+  {
+   "id": 132,
+   "grupoId": 8,
+   "data": "2026-09-29",
+   "modalidade": "Online",
+   "realizado": true
+  },
+  {
+   "id": 133,
+   "grupoId": 3,
+   "data": "2026-09-29",
+   "modalidade": "Presencial",
+   "realizado": true
+  },
+  {
+   "id": 134,
+   "grupoId": 18,
+   "data": "2026-09-30",
+   "modalidade": "Online",
+   "realizado": true
+  }
+ ],
+ "projetos": [
+  {
+   "id": 1,
+   "nome": "Validação · Inglês IV",
+   "disciplinaId": 10,
+   "semestre": "2024-2",
+   "area": "Infraestrutura",
+   "modalidade": "Presencial",
+   "integrantes": 5,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2024-08-20",
+   "prazo": "2024-10-15",
+   "entregueEm": "2024-10-13"
+  },
+  {
+   "id": 2,
+   "nome": "Planejamento · Inglês I",
+   "disciplinaId": 6,
+   "semestre": "2024-2",
+   "area": "Programação",
+   "modalidade": "Presencial",
+   "integrantes": 2,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2024-08-14",
+   "prazo": "2024-12-07",
+   "entregueEm": "2024-12-04"
+  },
+  {
+   "id": 3,
+   "nome": "Entrega final · Inglês IV",
+   "disciplinaId": 10,
+   "semestre": "2024-2",
+   "area": "Programação",
+   "modalidade": "Híbrido",
+   "integrantes": 2,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2024-08-16",
+   "prazo": "2024-10-13",
+   "entregueEm": "2024-10-13"
+  },
+  {
+   "id": 4,
+   "nome": "Implementação · Design Digital",
+   "disciplinaId": 4,
+   "semestre": "2024-2",
+   "area": "Programação",
+   "modalidade": "Presencial",
+   "integrantes": 3,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2024-08-14",
+   "prazo": "2024-12-02",
+   "entregueEm": "2024-11-30"
+  },
+  {
+   "id": 5,
+   "nome": "Validação · Estatística",
+   "disciplinaId": 11,
+   "semestre": "2024-2",
+   "area": "Segurança",
+   "modalidade": "Presencial",
+   "integrantes": 4,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2024-08-14",
+   "prazo": "2024-11-10",
+   "entregueEm": "2024-11-07"
+  },
+  {
+   "id": 6,
+   "nome": "Planejamento · Fundamentos de Matemática Elementar",
+   "disciplinaId": 5,
+   "semestre": "2024-2",
+   "area": "BD & SQL",
+   "modalidade": "Híbrido",
+   "integrantes": 3,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2024-08-13",
+   "prazo": "2024-12-02",
+   "entregueEm": "2024-12-02"
+  },
+  {
+   "id": 7,
+   "nome": "Diagnóstico · Matemática Discreta",
+   "disciplinaId": 8,
+   "semestre": "2024-2",
+   "area": "BD & SQL",
+   "modalidade": "Online",
+   "integrantes": 5,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2024-08-18",
+   "prazo": "2024-10-10",
+   "entregueEm": "2024-10-09"
+  },
+  {
+   "id": 8,
+   "nome": "Protótipo · Inglês V",
+   "disciplinaId": 12,
+   "semestre": "2024-2",
+   "area": "Infraestrutura",
+   "modalidade": "Presencial",
+   "integrantes": 2,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2024-08-25",
+   "prazo": "2024-11-22",
+   "entregueEm": "2024-11-22"
+  },
+  {
+   "id": 9,
+   "nome": "Implementação · Criação de Conteúdos na Web",
+   "disciplinaId": 3,
+   "semestre": "2024-2",
+   "area": "Programação",
+   "modalidade": "Híbrido",
+   "integrantes": 3,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2024-08-24",
+   "prazo": "2024-12-13",
+   "entregueEm": "2024-12-10"
+  },
+  {
+   "id": 10,
+   "nome": "Pesquisa · Algoritmos e Lógica de Programação",
+   "disciplinaId": 1,
+   "semestre": "2024-2",
+   "area": "BD & SQL",
+   "modalidade": "Híbrido",
+   "integrantes": 5,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2024-08-14",
+   "prazo": "2024-11-27",
+   "entregueEm": "2024-11-27"
+  },
+  {
+   "id": 11,
+   "nome": "Planejamento · Inglês II",
+   "disciplinaId": 7,
+   "semestre": "2024-2",
+   "area": "IA & Dados",
+   "modalidade": "Presencial",
+   "integrantes": 5,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2024-08-17",
+   "prazo": "2024-10-20",
+   "entregueEm": "2024-10-20"
+  },
+  {
+   "id": 12,
+   "nome": "Implementação · Padrões de Projeto de Software e Internet",
+   "disciplinaId": 9,
+   "semestre": "2024-2",
+   "area": "Programação",
+   "modalidade": "Presencial",
+   "integrantes": 2,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2024-08-13",
+   "prazo": "2024-11-17",
+   "entregueEm": "2024-11-15"
+  },
+  {
+   "id": 13,
+   "nome": "Documentação · Bases para Internet",
+   "disciplinaId": 2,
+   "semestre": "2024-2",
+   "area": "Infraestrutura",
+   "modalidade": "Híbrido",
+   "integrantes": 5,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2024-08-07",
+   "prazo": "2024-10-17",
+   "entregueEm": "2024-10-16"
+  },
+  {
+   "id": 14,
+   "nome": "Entrega final · Padrões de Projeto de Software e Internet",
+   "disciplinaId": 9,
+   "semestre": "2024-2",
+   "area": "IA & Dados",
+   "modalidade": "Online",
+   "integrantes": 3,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2024-08-17",
+   "prazo": "2024-11-01",
+   "entregueEm": "2024-10-26"
+  },
+  {
+   "id": 15,
+   "nome": "Planejamento · Design Digital",
+   "disciplinaId": 4,
+   "semestre": "2024-2",
+   "area": "BD & SQL",
+   "modalidade": "Híbrido",
+   "integrantes": 2,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2024-08-26",
+   "prazo": "2024-11-10",
+   "entregueEm": "2024-11-07"
+  },
+  {
+   "id": 16,
+   "nome": "Planejamento · Segurança em Sistemas",
+   "disciplinaId": 13,
+   "semestre": "2024-2",
+   "area": "Infraestrutura",
+   "modalidade": "Presencial",
+   "integrantes": 4,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2024-08-05",
+   "prazo": "2024-12-04",
+   "entregueEm": "2024-12-01"
+  },
+  {
+   "id": 17,
+   "nome": "Pesquisa · Inglês V",
+   "disciplinaId": 12,
+   "semestre": "2024-2",
+   "area": "Infraestrutura",
+   "modalidade": "Presencial",
+   "integrantes": 5,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2024-08-16",
+   "prazo": "2024-11-02",
+   "entregueEm": "2024-10-27"
+  },
+  {
+   "id": 18,
+   "nome": "Protótipo · Segurança em Sistemas",
+   "disciplinaId": 13,
+   "semestre": "2024-2",
+   "area": "Programação",
+   "modalidade": "Presencial",
+   "integrantes": 2,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2024-08-23",
+   "prazo": "2024-12-05",
+   "entregueEm": "2024-12-05"
+  },
+  {
+   "id": 19,
+   "nome": "Planejamento · Bases para Internet",
+   "disciplinaId": 2,
+   "semestre": "2024-2",
+   "area": "Infraestrutura",
+   "modalidade": "Presencial",
+   "integrantes": 2,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2024-08-15",
+   "prazo": "2024-11-21",
+   "entregueEm": "2024-11-19"
+  },
+  {
+   "id": 20,
+   "nome": "Protótipo · Bases para Internet",
+   "disciplinaId": 2,
+   "semestre": "2024-2",
+   "area": "Segurança",
+   "modalidade": "Presencial",
+   "integrantes": 4,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2024-08-27",
+   "prazo": "2024-12-12",
+   "entregueEm": "2024-12-08"
+  },
+  {
+   "id": 21,
+   "nome": "Planejamento · Algoritmos e Lógica de Programação",
+   "disciplinaId": 1,
+   "semestre": "2024-2",
+   "area": "BD & SQL",
+   "modalidade": "Online",
+   "integrantes": 3,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2024-08-11",
+   "prazo": "2024-10-24",
+   "entregueEm": "2024-10-18"
+  },
+  {
+   "id": 22,
+   "nome": "Pesquisa · Estatística",
+   "disciplinaId": 11,
+   "semestre": "2024-2",
+   "area": "Segurança",
+   "modalidade": "Híbrido",
+   "integrantes": 5,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2024-08-30",
+   "prazo": "2024-10-13",
+   "entregueEm": "2024-10-10"
+  },
+  {
+   "id": 23,
+   "nome": "Entrega final · Inglês II",
+   "disciplinaId": 7,
+   "semestre": "2024-2",
+   "area": "IA & Dados",
+   "modalidade": "Híbrido",
+   "integrantes": 3,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2024-08-17",
+   "prazo": "2024-12-12",
+   "entregueEm": "2024-12-12"
+  },
+  {
+   "id": 24,
+   "nome": "Documentação · Algoritmos e Lógica de Programação",
+   "disciplinaId": 1,
+   "semestre": "2024-2",
+   "area": "Programação",
+   "modalidade": "Híbrido",
+   "integrantes": 5,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2024-08-19",
+   "prazo": "2024-10-12",
+   "entregueEm": "2024-10-06"
+  },
+  {
+   "id": 25,
+   "nome": "Pesquisa · Inglês I",
+   "disciplinaId": 6,
+   "semestre": "2024-2",
+   "area": "Programação",
+   "modalidade": "Online",
+   "integrantes": 2,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2024-08-24",
+   "prazo": "2024-11-01",
+   "entregueEm": "2024-10-30"
+  },
+  {
+   "id": 26,
+   "nome": "Pesquisa · Fundamentos de Matemática Elementar",
+   "disciplinaId": 5,
+   "semestre": "2024-2",
+   "area": "BD & SQL",
+   "modalidade": "Híbrido",
+   "integrantes": 5,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2024-08-14",
+   "prazo": "2024-10-26",
+   "entregueEm": "2024-10-23"
+  },
+  {
+   "id": 27,
+   "nome": "Validação · Matemática Discreta",
+   "disciplinaId": 8,
+   "semestre": "2024-2",
+   "area": "IA & Dados",
+   "modalidade": "Presencial",
+   "integrantes": 4,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2024-08-17",
+   "prazo": "2024-10-11",
+   "entregueEm": "2024-10-10"
+  },
+  {
+   "id": 28,
+   "nome": "Planejamento · Criação de Conteúdos na Web",
+   "disciplinaId": 3,
+   "semestre": "2024-2",
+   "area": "Programação",
+   "modalidade": "Híbrido",
+   "integrantes": 4,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2024-08-30",
+   "prazo": "2024-10-12",
+   "entregueEm": "2024-10-08"
+  },
+  {
+   "id": 29,
+   "nome": "Diagnóstico · Padrões de Projeto de Software e Internet",
+   "disciplinaId": 9,
+   "semestre": "2025-1",
+   "area": "Segurança",
+   "modalidade": "Presencial",
+   "integrantes": 5,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2025-02-10",
+   "prazo": "2025-05-09",
+   "entregueEm": "2025-05-08"
+  },
+  {
+   "id": 30,
+   "nome": "Diagnóstico · Inglês IV",
+   "disciplinaId": 10,
+   "semestre": "2025-1",
+   "area": "Programação",
+   "modalidade": "Presencial",
+   "integrantes": 5,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2025-03-01",
+   "prazo": "2025-07-08",
+   "entregueEm": "2025-07-02"
+  },
+  {
+   "id": 31,
+   "nome": "Validação · Bases para Internet",
+   "disciplinaId": 2,
+   "semestre": "2025-1",
+   "area": "IA & Dados",
+   "modalidade": "Híbrido",
+   "integrantes": 3,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2025-02-28",
+   "prazo": "2025-07-07",
+   "entregueEm": "2025-07-04"
+  },
+  {
+   "id": 32,
+   "nome": "Protótipo · Design Digital",
+   "disciplinaId": 4,
+   "semestre": "2025-1",
+   "area": "BD & SQL",
+   "modalidade": "Híbrido",
+   "integrantes": 3,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2025-02-16",
+   "prazo": "2025-07-01",
+   "entregueEm": "2025-07-06"
+  },
+  {
+   "id": 33,
+   "nome": "Pesquisa · Criação de Conteúdos na Web",
+   "disciplinaId": 3,
+   "semestre": "2025-1",
+   "area": "IA & Dados",
+   "modalidade": "Híbrido",
+   "integrantes": 2,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2025-03-05",
+   "prazo": "2025-05-27",
+   "entregueEm": "2025-05-21"
+  },
+  {
+   "id": 34,
+   "nome": "Implementação · Matemática Discreta",
+   "disciplinaId": 8,
+   "semestre": "2025-1",
+   "area": "Programação",
+   "modalidade": "Online",
+   "integrantes": 3,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2025-02-25",
+   "prazo": "2025-05-29",
+   "entregueEm": "2025-05-23"
+  },
+  {
+   "id": 35,
+   "nome": "Entrega final · Design Digital",
+   "disciplinaId": 4,
+   "semestre": "2025-1",
+   "area": "BD & SQL",
+   "modalidade": "Online",
+   "integrantes": 3,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2025-02-25",
+   "prazo": "2025-07-02",
+   "entregueEm": "2025-06-28"
+  },
+  {
+   "id": 36,
+   "nome": "Entrega final · Estatística",
+   "disciplinaId": 11,
+   "semestre": "2025-1",
+   "area": "IA & Dados",
+   "modalidade": "Híbrido",
+   "integrantes": 2,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2025-02-26",
+   "prazo": "2025-06-19",
+   "entregueEm": "2025-06-17"
+  },
+  {
+   "id": 37,
+   "nome": "Diagnóstico · Matemática Discreta",
+   "disciplinaId": 8,
+   "semestre": "2025-1",
+   "area": "BD & SQL",
+   "modalidade": "Presencial",
+   "integrantes": 2,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2025-02-21",
+   "prazo": "2025-06-25",
+   "entregueEm": "2025-06-27"
+  },
+  {
+   "id": 38,
+   "nome": "Pesquisa · Fundamentos de Matemática Elementar",
+   "disciplinaId": 5,
+   "semestre": "2025-1",
+   "area": "Infraestrutura",
+   "modalidade": "Híbrido",
+   "integrantes": 2,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2025-02-14",
+   "prazo": "2025-06-21",
+   "entregueEm": "2025-06-20"
+  },
+  {
+   "id": 39,
+   "nome": "Entrega final · Segurança em Sistemas",
+   "disciplinaId": 13,
+   "semestre": "2025-1",
+   "area": "Programação",
+   "modalidade": "Híbrido",
+   "integrantes": 2,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2025-02-19",
+   "prazo": "2025-04-12",
+   "entregueEm": "2025-04-11"
+  },
+  {
+   "id": 40,
+   "nome": "Diagnóstico · Design Digital",
+   "disciplinaId": 4,
+   "semestre": "2025-1",
+   "area": "Programação",
+   "modalidade": "Presencial",
+   "integrantes": 2,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2025-03-03",
+   "prazo": "2025-04-26",
+   "entregueEm": "2025-04-26"
+  },
+  {
+   "id": 41,
+   "nome": "Documentação · Algoritmos e Lógica de Programação",
+   "disciplinaId": 1,
+   "semestre": "2025-1",
+   "area": "Programação",
+   "modalidade": "Presencial",
+   "integrantes": 5,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2025-02-20",
+   "prazo": "2025-04-26",
+   "entregueEm": "2025-04-25"
+  },
+  {
+   "id": 42,
+   "nome": "Protótipo · Criação de Conteúdos na Web",
+   "disciplinaId": 3,
+   "semestre": "2025-1",
+   "area": "Infraestrutura",
+   "modalidade": "Presencial",
+   "integrantes": 4,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2025-02-27",
+   "prazo": "2025-06-18",
+   "entregueEm": "2025-06-12"
+  },
+  {
+   "id": 43,
+   "nome": "Protótipo · Padrões de Projeto de Software e Internet",
+   "disciplinaId": 9,
+   "semestre": "2025-1",
+   "area": "BD & SQL",
+   "modalidade": "Presencial",
+   "integrantes": 2,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2025-02-23",
+   "prazo": "2025-04-24",
+   "entregueEm": "2025-04-22"
+  },
+  {
+   "id": 44,
+   "nome": "Entrega final · Algoritmos e Lógica de Programação",
+   "disciplinaId": 1,
+   "semestre": "2025-1",
+   "area": "Programação",
+   "modalidade": "Presencial",
+   "integrantes": 3,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2025-02-20",
+   "prazo": "2025-05-10",
+   "entregueEm": "2025-05-15"
+  },
+  {
+   "id": 45,
+   "nome": "Validação · Fundamentos de Matemática Elementar",
+   "disciplinaId": 5,
+   "semestre": "2025-1",
+   "area": "Infraestrutura",
+   "modalidade": "Online",
+   "integrantes": 5,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2025-02-25",
+   "prazo": "2025-06-30",
+   "entregueEm": "2025-06-27"
+  },
+  {
+   "id": 46,
+   "nome": "Implementação · Inglês V",
+   "disciplinaId": 12,
+   "semestre": "2025-1",
+   "area": "BD & SQL",
+   "modalidade": "Presencial",
+   "integrantes": 3,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2025-02-20",
+   "prazo": "2025-05-24",
+   "entregueEm": "2025-05-21"
+  },
+  {
+   "id": 47,
+   "nome": "Diagnóstico · Estatística",
+   "disciplinaId": 11,
+   "semestre": "2025-1",
+   "area": "Programação",
+   "modalidade": "Híbrido",
+   "integrantes": 5,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2025-02-16",
+   "prazo": "2025-05-30",
+   "entregueEm": "2025-05-27"
+  },
+  {
+   "id": 48,
+   "nome": "Diagnóstico · Bases para Internet",
+   "disciplinaId": 2,
+   "semestre": "2025-1",
+   "area": "Infraestrutura",
+   "modalidade": "Presencial",
+   "integrantes": 2,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2025-02-14",
+   "prazo": "2025-05-27",
+   "entregueEm": "2025-06-01"
+  },
+  {
+   "id": 49,
+   "nome": "Protótipo · Inglês II",
+   "disciplinaId": 7,
+   "semestre": "2025-1",
+   "area": "IA & Dados",
+   "modalidade": "Presencial",
+   "integrantes": 2,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2025-02-24",
+   "prazo": "2025-06-05",
+   "entregueEm": "2025-06-10"
+  },
+  {
+   "id": 50,
+   "nome": "Implementação · Algoritmos e Lógica de Programação",
+   "disciplinaId": 1,
+   "semestre": "2025-1",
+   "area": "Segurança",
+   "modalidade": "Híbrido",
+   "integrantes": 3,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2025-02-22",
+   "prazo": "2025-05-05",
+   "entregueEm": "2025-05-07"
+  },
+  {
+   "id": 51,
+   "nome": "Entrega final · Inglês I",
+   "disciplinaId": 6,
+   "semestre": "2025-1",
+   "area": "BD & SQL",
+   "modalidade": "Presencial",
+   "integrantes": 3,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2025-03-05",
+   "prazo": "2025-06-10",
+   "entregueEm": "2025-06-08"
+  },
+  {
+   "id": 52,
+   "nome": "Diagnóstico · Fundamentos de Matemática Elementar",
+   "disciplinaId": 5,
+   "semestre": "2025-1",
+   "area": "IA & Dados",
+   "modalidade": "Presencial",
+   "integrantes": 5,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2025-03-07",
+   "prazo": "2025-04-28",
+   "entregueEm": "2025-04-27"
+  },
+  {
+   "id": 53,
+   "nome": "Documentação · Inglês V",
+   "disciplinaId": 12,
+   "semestre": "2025-1",
+   "area": "Programação",
+   "modalidade": "Online",
+   "integrantes": 3,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2025-02-28",
+   "prazo": "2025-05-31",
+   "entregueEm": "2025-06-05"
+  },
+  {
+   "id": 54,
+   "nome": "Documentação · Inglês I",
+   "disciplinaId": 6,
+   "semestre": "2025-1",
+   "area": "Programação",
+   "modalidade": "Online",
+   "integrantes": 3,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2025-02-10",
+   "prazo": "2025-04-15",
+   "entregueEm": "2025-04-17"
+  },
+  {
+   "id": 55,
+   "nome": "Planejamento · Inglês IV",
+   "disciplinaId": 10,
+   "semestre": "2025-1",
+   "area": "Segurança",
+   "modalidade": "Híbrido",
+   "integrantes": 3,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2025-03-04",
+   "prazo": "2025-06-15",
+   "entregueEm": "2025-06-12"
+  },
+  {
+   "id": 56,
+   "nome": "Planejamento · Criação de Conteúdos na Web",
+   "disciplinaId": 3,
+   "semestre": "2025-1",
+   "area": "BD & SQL",
+   "modalidade": "Híbrido",
+   "integrantes": 4,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2025-02-14",
+   "prazo": "2025-04-23",
+   "entregueEm": "2025-04-28"
+  },
+  {
+   "id": 57,
+   "nome": "Entrega final · Inglês II",
+   "disciplinaId": 7,
+   "semestre": "2025-1",
+   "area": "Infraestrutura",
+   "modalidade": "Híbrido",
+   "integrantes": 3,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2025-02-10",
+   "prazo": "2025-06-25",
+   "entregueEm": "2025-06-25"
+  },
+  {
+   "id": 58,
+   "nome": "Pesquisa · Bases para Internet",
+   "disciplinaId": 2,
+   "semestre": "2025-1",
+   "area": "Programação",
+   "modalidade": "Híbrido",
+   "integrantes": 4,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2025-02-14",
+   "prazo": "2025-06-30",
+   "entregueEm": "2025-06-26"
+  },
+  {
+   "id": 59,
+   "nome": "Pesquisa · Segurança em Sistemas",
+   "disciplinaId": 13,
+   "semestre": "2025-1",
+   "area": "Infraestrutura",
+   "modalidade": "Presencial",
+   "integrantes": 3,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2025-02-26",
+   "prazo": "2025-05-03",
+   "entregueEm": "2025-04-29"
+  },
+  {
+   "id": 60,
+   "nome": "Validação · Design Digital",
+   "disciplinaId": 4,
+   "semestre": "2026-1",
+   "area": "Segurança",
+   "modalidade": "Online",
+   "integrantes": 4,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2026-03-02",
+   "prazo": "2026-05-07",
+   "entregueEm": "2026-05-04"
+  },
+  {
+   "id": 61,
+   "nome": "Planejamento · Inglês V",
+   "disciplinaId": 12,
+   "semestre": "2026-1",
+   "area": "Infraestrutura",
+   "modalidade": "Presencial",
+   "integrantes": 2,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2026-02-24",
+   "prazo": "2026-06-18",
+   "entregueEm": "2026-06-23"
+  },
+  {
+   "id": 62,
+   "nome": "Pesquisa · Inglês I",
+   "disciplinaId": 6,
+   "semestre": "2026-1",
+   "area": "BD & SQL",
+   "modalidade": "Presencial",
+   "integrantes": 4,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2026-02-18",
+   "prazo": "2026-06-25",
+   "entregueEm": "2026-06-22"
+  },
+  {
+   "id": 63,
+   "nome": "Validação · Inglês II",
+   "disciplinaId": 7,
+   "semestre": "2026-1",
+   "area": "Infraestrutura",
+   "modalidade": "Online",
+   "integrantes": 2,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2026-02-11",
+   "prazo": "2026-07-09",
+   "entregueEm": "2026-07-08"
+  },
+  {
+   "id": 64,
+   "nome": "Entrega final · Matemática Discreta",
+   "disciplinaId": 8,
+   "semestre": "2026-1",
+   "area": "Segurança",
+   "modalidade": "Presencial",
+   "integrantes": 5,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2026-02-11",
+   "prazo": "2026-05-13",
+   "entregueEm": "2026-05-13"
+  },
+  {
+   "id": 65,
+   "nome": "Protótipo · Inglês II",
+   "disciplinaId": 7,
+   "semestre": "2026-1",
+   "area": "BD & SQL",
+   "modalidade": "Online",
+   "integrantes": 3,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2026-02-26",
+   "prazo": "2026-07-10",
+   "entregueEm": "2026-07-08"
+  },
+  {
+   "id": 66,
+   "nome": "Planejamento · Inglês I",
+   "disciplinaId": 6,
+   "semestre": "2026-1",
+   "area": "Programação",
+   "modalidade": "Online",
+   "integrantes": 2,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2026-02-19",
+   "prazo": "2026-05-22",
+   "entregueEm": "2026-05-20"
+  },
+  {
+   "id": 67,
+   "nome": "Implementação · Padrões de Projeto de Software e Internet",
+   "disciplinaId": 9,
+   "semestre": "2026-1",
+   "area": "Programação",
+   "modalidade": "Online",
+   "integrantes": 2,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2026-03-01",
+   "prazo": "2026-04-21",
+   "entregueEm": "2026-04-19"
+  },
+  {
+   "id": 68,
+   "nome": "Protótipo · Bases para Internet",
+   "disciplinaId": 2,
+   "semestre": "2026-1",
+   "area": "IA & Dados",
+   "modalidade": "Presencial",
+   "integrantes": 2,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2026-02-17",
+   "prazo": "2026-05-14",
+   "entregueEm": "2026-05-11"
+  },
+  {
+   "id": 69,
+   "nome": "Documentação · Segurança em Sistemas",
+   "disciplinaId": 13,
+   "semestre": "2026-1",
+   "area": "Segurança",
+   "modalidade": "Presencial",
+   "integrantes": 5,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2026-03-02",
+   "prazo": "2026-04-20",
+   "entregueEm": "2026-04-19"
+  },
+  {
+   "id": 70,
+   "nome": "Validação · Inglês I",
+   "disciplinaId": 6,
+   "semestre": "2026-1",
+   "area": "Infraestrutura",
+   "modalidade": "Presencial",
+   "integrantes": 3,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2026-02-10",
+   "prazo": "2026-05-02",
+   "entregueEm": "2026-04-30"
+  },
+  {
+   "id": 71,
+   "nome": "Planejamento · Algoritmos e Lógica de Programação",
+   "disciplinaId": 1,
+   "semestre": "2026-1",
+   "area": "Programação",
+   "modalidade": "Presencial",
+   "integrantes": 5,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2026-03-02",
+   "prazo": "2026-05-08",
+   "entregueEm": "2026-05-07"
+  },
+  {
+   "id": 72,
+   "nome": "Pesquisa · Design Digital",
+   "disciplinaId": 4,
+   "semestre": "2026-1",
+   "area": "Programação",
+   "modalidade": "Presencial",
+   "integrantes": 5,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2026-02-10",
+   "prazo": "2026-06-28",
+   "entregueEm": "2026-06-28"
+  },
+  {
+   "id": 73,
+   "nome": "Protótipo · Criação de Conteúdos na Web",
+   "disciplinaId": 3,
+   "semestre": "2026-1",
+   "area": "BD & SQL",
+   "modalidade": "Híbrido",
+   "integrantes": 4,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2026-02-20",
+   "prazo": "2026-06-08",
+   "entregueEm": "2026-06-07"
+  },
+  {
+   "id": 74,
+   "nome": "Validação · Inglês IV",
+   "disciplinaId": 10,
+   "semestre": "2026-1",
+   "area": "BD & SQL",
+   "modalidade": "Online",
+   "integrantes": 4,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2026-02-26",
+   "prazo": "2026-04-15",
+   "entregueEm": "2026-04-14"
+  },
+  {
+   "id": 75,
+   "nome": "Diagnóstico · Fundamentos de Matemática Elementar",
+   "disciplinaId": 5,
+   "semestre": "2026-1",
+   "area": "Programação",
+   "modalidade": "Híbrido",
+   "integrantes": 4,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2026-03-06",
+   "prazo": "2026-05-17",
+   "entregueEm": "2026-05-22"
+  },
+  {
+   "id": 76,
+   "nome": "Validação · Segurança em Sistemas",
+   "disciplinaId": 13,
+   "semestre": "2026-1",
+   "area": "IA & Dados",
+   "modalidade": "Presencial",
+   "integrantes": 2,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2026-03-01",
+   "prazo": "2026-04-21",
+   "entregueEm": "2026-04-23"
+  },
+  {
+   "id": 77,
+   "nome": "Implementação · Algoritmos e Lógica de Programação",
+   "disciplinaId": 1,
+   "semestre": "2026-1",
+   "area": "Infraestrutura",
+   "modalidade": "Híbrido",
+   "integrantes": 2,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2026-02-22",
+   "prazo": "2026-04-15",
+   "entregueEm": "2026-04-14"
+  },
+  {
+   "id": 78,
+   "nome": "Entrega final · Fundamentos de Matemática Elementar",
+   "disciplinaId": 5,
+   "semestre": "2026-1",
+   "area": "Segurança",
+   "modalidade": "Presencial",
+   "integrantes": 2,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2026-03-01",
+   "prazo": "2026-06-08",
+   "entregueEm": "2026-06-08"
+  },
+  {
+   "id": 79,
+   "nome": "Planejamento · Inglês II",
+   "disciplinaId": 7,
+   "semestre": "2026-1",
+   "area": "Programação",
+   "modalidade": "Híbrido",
+   "integrantes": 2,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2026-02-24",
+   "prazo": "2026-07-08",
+   "entregueEm": "2026-07-04"
+  },
+  {
+   "id": 80,
+   "nome": "Documentação · Matemática Discreta",
+   "disciplinaId": 8,
+   "semestre": "2026-1",
+   "area": "Programação",
+   "modalidade": "Online",
+   "integrantes": 5,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2026-02-21",
+   "prazo": "2026-05-29",
+   "entregueEm": "2026-05-27"
+  },
+  {
+   "id": 81,
+   "nome": "Protótipo · Padrões de Projeto de Software e Internet",
+   "disciplinaId": 9,
+   "semestre": "2026-1",
+   "area": "Programação",
+   "modalidade": "Online",
+   "integrantes": 4,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2026-02-12",
+   "prazo": "2026-06-14",
+   "entregueEm": "2026-06-14"
+  },
+  {
+   "id": 82,
+   "nome": "Documentação · Algoritmos e Lógica de Programação",
+   "disciplinaId": 1,
+   "semestre": "2026-1",
+   "area": "Infraestrutura",
+   "modalidade": "Presencial",
+   "integrantes": 2,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2026-02-16",
+   "prazo": "2026-05-20",
+   "entregueEm": "2026-05-20"
+  },
+  {
+   "id": 83,
+   "nome": "Pesquisa · Matemática Discreta",
+   "disciplinaId": 8,
+   "semestre": "2026-1",
+   "area": "Infraestrutura",
+   "modalidade": "Presencial",
+   "integrantes": 3,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2026-03-01",
+   "prazo": "2026-04-21",
+   "entregueEm": "2026-04-17"
+  },
+  {
+   "id": 84,
+   "nome": "Diagnóstico · Estatística",
+   "disciplinaId": 11,
+   "semestre": "2026-1",
+   "area": "IA & Dados",
+   "modalidade": "Online",
+   "integrantes": 4,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2026-02-15",
+   "prazo": "2026-07-08",
+   "entregueEm": "2026-07-10"
+  },
+  {
+   "id": 85,
+   "nome": "Implementação · Criação de Conteúdos na Web",
+   "disciplinaId": 3,
+   "semestre": "2026-1",
+   "area": "BD & SQL",
+   "modalidade": "Presencial",
+   "integrantes": 2,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2026-02-12",
+   "prazo": "2026-05-15",
+   "entregueEm": "2026-05-11"
+  },
+  {
+   "id": 86,
+   "nome": "Protótipo · Fundamentos de Matemática Elementar",
+   "disciplinaId": 5,
+   "semestre": "2026-1",
+   "area": "IA & Dados",
+   "modalidade": "Online",
+   "integrantes": 5,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2026-02-20",
+   "prazo": "2026-07-09",
+   "entregueEm": "2026-07-03"
+  },
+  {
+   "id": 87,
+   "nome": "Protótipo · Inglês IV",
+   "disciplinaId": 10,
+   "semestre": "2026-1",
+   "area": "BD & SQL",
+   "modalidade": "Online",
+   "integrantes": 5,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2026-03-06",
+   "prazo": "2026-06-15",
+   "entregueEm": "2026-06-12"
+  },
+  {
+   "id": 88,
+   "nome": "Validação · Inglês V",
+   "disciplinaId": 12,
+   "semestre": "2026-1",
+   "area": "Infraestrutura",
+   "modalidade": "Híbrido",
+   "integrantes": 3,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2026-02-15",
+   "prazo": "2026-05-11",
+   "entregueEm": "2026-05-11"
+  },
+  {
+   "id": 89,
+   "nome": "Validação · Bases para Internet",
+   "disciplinaId": 2,
+   "semestre": "2026-1",
+   "area": "BD & SQL",
+   "modalidade": "Híbrido",
+   "integrantes": 4,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2026-02-14",
+   "prazo": "2026-06-22",
+   "entregueEm": "2026-06-22"
+  },
+  {
+   "id": 90,
+   "nome": "Entrega final · Design Digital",
+   "disciplinaId": 4,
+   "semestre": "2026-1",
+   "area": "Programação",
+   "modalidade": "Presencial",
+   "integrantes": 5,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2026-02-18",
+   "prazo": "2026-05-08",
+   "entregueEm": "2026-05-07"
+  },
+  {
+   "id": 91,
+   "nome": "Diagnóstico · Bases para Internet",
+   "disciplinaId": 2,
+   "semestre": "2026-1",
+   "area": "Programação",
+   "modalidade": "Presencial",
+   "integrantes": 5,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2026-02-26",
+   "prazo": "2026-06-27",
+   "entregueEm": "2026-06-29"
+  },
+  {
+   "id": 92,
+   "nome": "Planejamento · Criação de Conteúdos na Web",
+   "disciplinaId": 3,
+   "semestre": "2026-1",
+   "area": "IA & Dados",
+   "modalidade": "Presencial",
+   "integrantes": 3,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2026-02-11",
+   "prazo": "2026-05-14",
+   "entregueEm": "2026-05-08"
+  },
+  {
+   "id": 93,
+   "nome": "Implementação · Estatística",
+   "disciplinaId": 11,
+   "semestre": "2026-1",
+   "area": "Programação",
+   "modalidade": "Presencial",
+   "integrantes": 5,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2026-02-20",
+   "prazo": "2026-07-05",
+   "entregueEm": "2026-07-04"
+  },
+  {
+   "id": 94,
+   "nome": "Protótipo · Fundamentos de Matemática Elementar",
+   "disciplinaId": 5,
+   "semestre": "2026-2",
+   "area": "BD & SQL",
+   "modalidade": "Online",
+   "integrantes": 3,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2026-08-18",
+   "prazo": "2026-09-13",
+   "entregueEm": "2026-09-11"
+  },
+  {
+   "id": 95,
+   "nome": "Entrega final · Bases para Internet",
+   "disciplinaId": 2,
+   "semestre": "2026-2",
+   "area": "Infraestrutura",
+   "modalidade": "Híbrido",
+   "integrantes": 5,
+   "status": "Avançado",
+   "progresso": 90,
+   "inicio": "2026-08-18",
+   "prazo": "2026-11-30",
+   "entregueEm": null
+  },
+  {
+   "id": 96,
+   "nome": "Pesquisa · Inglês V",
+   "disciplinaId": 12,
+   "semestre": "2026-2",
+   "area": "Segurança",
+   "modalidade": "Online",
+   "integrantes": 5,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2026-08-19",
+   "prazo": "2026-09-07",
+   "entregueEm": "2026-09-07"
+  },
+  {
+   "id": 97,
+   "nome": "Documentação · Inglês V",
+   "disciplinaId": 12,
+   "semestre": "2026-2",
+   "area": "Segurança",
+   "modalidade": "Online",
+   "integrantes": 4,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2026-08-03",
+   "prazo": "2026-09-30",
+   "entregueEm": "2026-09-29"
+  },
+  {
+   "id": 98,
+   "nome": "Validação · Fundamentos de Matemática Elementar",
+   "disciplinaId": 5,
+   "semestre": "2026-2",
+   "area": "BD & SQL",
+   "modalidade": "Híbrido",
+   "integrantes": 2,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2026-08-06",
+   "prazo": "2026-09-13",
+   "entregueEm": "2026-09-12"
+  },
+  {
+   "id": 99,
+   "nome": "Dev Web com React",
+   "disciplinaId": 3,
+   "semestre": "2026-2",
+   "area": "Programação",
+   "modalidade": "Online",
+   "integrantes": 3,
+   "status": "Atrasado",
+   "progresso": 54,
+   "inicio": "2026-08-03",
+   "prazo": "2026-09-18",
+   "entregueEm": null
+  },
+  {
+   "id": 100,
+   "nome": "Validação · Matemática Discreta",
+   "disciplinaId": 8,
+   "semestre": "2026-2",
+   "area": "Infraestrutura",
+   "modalidade": "Online",
+   "integrantes": 5,
+   "status": "Em andamento",
+   "progresso": 32,
+   "inicio": "2026-08-22",
+   "prazo": "2026-11-05",
+   "entregueEm": null
+  },
+  {
+   "id": 101,
+   "nome": "Diagnóstico · Design Digital",
+   "disciplinaId": 4,
+   "semestre": "2026-2",
+   "area": "Programação",
+   "modalidade": "Presencial",
+   "integrantes": 2,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2026-08-16",
+   "prazo": "2026-08-28",
+   "entregueEm": "2026-08-30"
+  },
+  {
+   "id": 102,
+   "nome": "Entrega final · Criação de Conteúdos na Web",
+   "disciplinaId": 3,
+   "semestre": "2026-2",
+   "area": "BD & SQL",
+   "modalidade": "Online",
+   "integrantes": 4,
+   "status": "Avançado",
+   "progresso": 91,
+   "inicio": "2026-08-12",
+   "prazo": "2026-11-17",
+   "entregueEm": null
+  },
+  {
+   "id": 103,
+   "nome": "Documentação · Algoritmos e Lógica de Programação",
+   "disciplinaId": 1,
+   "semestre": "2026-2",
+   "area": "BD & SQL",
+   "modalidade": "Online",
+   "integrantes": 2,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2026-08-05",
+   "prazo": "2026-09-17",
+   "entregueEm": "2026-09-22"
+  },
+  {
+   "id": 104,
+   "nome": "Validação · Inglês IV",
+   "disciplinaId": 10,
+   "semestre": "2026-2",
+   "area": "IA & Dados",
+   "modalidade": "Presencial",
+   "integrantes": 3,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2026-08-17",
+   "prazo": "2026-09-04",
+   "entregueEm": "2026-09-06"
+  },
+  {
+   "id": 105,
+   "nome": "Pesquisa · Inglês II",
+   "disciplinaId": 7,
+   "semestre": "2026-2",
+   "area": "Programação",
+   "modalidade": "Híbrido",
+   "integrantes": 5,
+   "status": "Avançado",
+   "progresso": 82,
+   "inicio": "2026-08-06",
+   "prazo": "2026-11-25",
+   "entregueEm": null
+  },
+  {
+   "id": 106,
+   "nome": "Planejamento · Bases para Internet",
+   "disciplinaId": 2,
+   "semestre": "2026-2",
+   "area": "Infraestrutura",
+   "modalidade": "Híbrido",
+   "integrantes": 2,
+   "status": "Avançado",
+   "progresso": 92,
+   "inicio": "2026-08-09",
+   "prazo": "2026-11-28",
+   "entregueEm": null
+  },
+  {
+   "id": 107,
+   "nome": "Redes de Computadores",
+   "disciplinaId": 2,
+   "semestre": "2026-2",
+   "area": "Infraestrutura",
+   "modalidade": "Híbrido",
+   "integrantes": 5,
+   "status": "Atrasado",
+   "progresso": 49,
+   "inicio": "2026-08-08",
+   "prazo": "2026-09-23",
+   "entregueEm": null
+  },
+  {
+   "id": 108,
+   "nome": "Documentação · Estatística",
+   "disciplinaId": 11,
+   "semestre": "2026-2",
+   "area": "Segurança",
+   "modalidade": "Híbrido",
+   "integrantes": 3,
+   "status": "Em andamento",
+   "progresso": 54,
+   "inicio": "2026-08-06",
+   "prazo": "2026-11-22",
+   "entregueEm": null
+  },
+  {
+   "id": 109,
+   "nome": "Implementação · Fundamentos de Matemática Elementar",
+   "disciplinaId": 5,
+   "semestre": "2026-2",
+   "area": "Programação",
+   "modalidade": "Online",
+   "integrantes": 4,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2026-08-10",
+   "prazo": "2026-09-03",
+   "entregueEm": "2026-09-03"
+  },
+  {
+   "id": 110,
+   "nome": "Entrega final · Matemática Discreta",
+   "disciplinaId": 8,
+   "semestre": "2026-2",
+   "area": "IA & Dados",
+   "modalidade": "Online",
+   "integrantes": 5,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2026-08-17",
+   "prazo": "2026-09-24",
+   "entregueEm": "2026-09-26"
+  },
+  {
+   "id": 111,
+   "nome": "Validação · Design Digital",
+   "disciplinaId": 4,
+   "semestre": "2026-2",
+   "area": "Programação",
+   "modalidade": "Online",
+   "integrantes": 5,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2026-08-07",
+   "prazo": "2026-09-25",
+   "entregueEm": "2026-09-22"
+  },
+  {
+   "id": 112,
+   "nome": "Documentação · Inglês IV",
+   "disciplinaId": 10,
+   "semestre": "2026-2",
+   "area": "Infraestrutura",
+   "modalidade": "Online",
+   "integrantes": 2,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2026-08-24",
+   "prazo": "2026-09-17",
+   "entregueEm": "2026-09-14"
+  },
+  {
+   "id": 113,
+   "nome": "Planejamento · Algoritmos e Lógica de Programação",
+   "disciplinaId": 1,
+   "semestre": "2026-2",
+   "area": "Programação",
+   "modalidade": "Presencial",
+   "integrantes": 5,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2026-08-05",
+   "prazo": "2026-09-21",
+   "entregueEm": "2026-09-21"
+  },
+  {
+   "id": 114,
+   "nome": "Diagnóstico · Inglês I",
+   "disciplinaId": 6,
+   "semestre": "2026-2",
+   "area": "Programação",
+   "modalidade": "Presencial",
+   "integrantes": 5,
+   "status": "Avançado",
+   "progresso": 72,
+   "inicio": "2026-08-04",
+   "prazo": "2026-11-19",
+   "entregueEm": null
+  },
+  {
+   "id": 115,
+   "nome": "Implementação · Estatística",
+   "disciplinaId": 11,
+   "semestre": "2026-2",
+   "area": "Infraestrutura",
+   "modalidade": "Presencial",
+   "integrantes": 5,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2026-08-14",
+   "prazo": "2026-09-21",
+   "entregueEm": "2026-09-26"
+  },
+  {
+   "id": 116,
+   "nome": "Documentação · Segurança em Sistemas",
+   "disciplinaId": 13,
+   "semestre": "2026-2",
+   "area": "Programação",
+   "modalidade": "Híbrido",
+   "integrantes": 2,
+   "status": "Em andamento",
+   "progresso": 47,
+   "inicio": "2026-08-04",
+   "prazo": "2026-11-06",
+   "entregueEm": null
+  },
+  {
+   "id": 117,
+   "nome": "Pesquisa · Padrões de Projeto de Software e Internet",
+   "disciplinaId": 9,
+   "semestre": "2026-2",
+   "area": "IA & Dados",
+   "modalidade": "Presencial",
+   "integrantes": 3,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2026-08-16",
+   "prazo": "2026-09-27",
+   "entregueEm": "2026-09-21"
+  },
+  {
+   "id": 118,
+   "nome": "Implementação · Padrões de Projeto de Software e Internet",
+   "disciplinaId": 9,
+   "semestre": "2026-2",
+   "area": "BD & SQL",
+   "modalidade": "Híbrido",
+   "integrantes": 2,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2026-08-11",
+   "prazo": "2026-09-20",
+   "entregueEm": "2026-09-20"
+  },
+  {
+   "id": 119,
+   "nome": "Validação · Inglês II",
+   "disciplinaId": 7,
+   "semestre": "2026-2",
+   "area": "Programação",
+   "modalidade": "Híbrido",
+   "integrantes": 3,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2026-08-16",
+   "prazo": "2026-09-26",
+   "entregueEm": "2026-09-20"
+  },
+  {
+   "id": 120,
+   "nome": "Protótipo · Matemática Discreta",
+   "disciplinaId": 8,
+   "semestre": "2026-2",
+   "area": "IA & Dados",
+   "modalidade": "Online",
+   "integrantes": 4,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2026-08-08",
+   "prazo": "2026-08-29",
+   "entregueEm": "2026-09-03"
+  },
+  {
+   "id": 121,
+   "nome": "Planejamento · Inglês II",
+   "disciplinaId": 7,
+   "semestre": "2026-2",
+   "area": "Infraestrutura",
+   "modalidade": "Online",
+   "integrantes": 3,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2026-08-22",
+   "prazo": "2026-09-15",
+   "entregueEm": "2026-09-13"
+  },
+  {
+   "id": 122,
+   "nome": "Pesquisa · Design Digital",
+   "disciplinaId": 4,
+   "semestre": "2026-2",
+   "area": "BD & SQL",
+   "modalidade": "Híbrido",
+   "integrantes": 4,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2026-08-11",
+   "prazo": "2026-08-31",
+   "entregueEm": "2026-08-27"
+  },
+  {
+   "id": 123,
+   "nome": "Pesquisa · Estatística",
+   "disciplinaId": 11,
+   "semestre": "2026-2",
+   "area": "Programação",
+   "modalidade": "Presencial",
+   "integrantes": 2,
+   "status": "Em andamento",
+   "progresso": 46,
+   "inicio": "2026-08-10",
+   "prazo": "2026-11-29",
+   "entregueEm": null
+  },
+  {
+   "id": 124,
+   "nome": "Implementação · Inglês IV",
+   "disciplinaId": 10,
+   "semestre": "2026-2",
+   "area": "IA & Dados",
+   "modalidade": "Presencial",
+   "integrantes": 2,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2026-08-16",
+   "prazo": "2026-09-13",
+   "entregueEm": "2026-09-13"
+  },
+  {
+   "id": 125,
+   "nome": "Protótipo · Padrões de Projeto de Software e Internet",
+   "disciplinaId": 9,
+   "semestre": "2026-2",
+   "area": "BD & SQL",
+   "modalidade": "Híbrido",
+   "integrantes": 2,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2026-08-21",
+   "prazo": "2026-09-16",
+   "entregueEm": "2026-09-21"
+  },
+  {
+   "id": 126,
+   "nome": "Pesquisa · Criação de Conteúdos na Web",
+   "disciplinaId": 3,
+   "semestre": "2026-2",
+   "area": "IA & Dados",
+   "modalidade": "Híbrido",
+   "integrantes": 4,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2026-08-13",
+   "prazo": "2026-09-13",
+   "entregueEm": "2026-09-07"
+  },
+  {
+   "id": 127,
+   "nome": "Entrega final · Inglês I",
+   "disciplinaId": 6,
+   "semestre": "2026-2",
+   "area": "Programação",
+   "modalidade": "Presencial",
+   "integrantes": 4,
+   "status": "Avançado",
+   "progresso": 78,
+   "inicio": "2026-08-10",
+   "prazo": "2026-11-01",
+   "entregueEm": null
+  },
+  {
+   "id": 128,
+   "nome": "Planejamento · Inglês I",
+   "disciplinaId": 6,
+   "semestre": "2026-2",
+   "area": "BD & SQL",
+   "modalidade": "Híbrido",
+   "integrantes": 3,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2026-08-19",
+   "prazo": "2026-08-31",
+   "entregueEm": "2026-09-02"
+  },
+  {
+   "id": 129,
+   "nome": "Segurança da Informação",
+   "disciplinaId": 13,
+   "semestre": "2026-2",
+   "area": "Segurança",
+   "modalidade": "Online",
+   "integrantes": 4,
+   "status": "Atrasado",
+   "progresso": 53,
+   "inicio": "2026-08-12",
+   "prazo": "2026-09-27",
+   "entregueEm": null
+  },
+  {
+   "id": 130,
+   "nome": "Protótipo · Bases para Internet",
+   "disciplinaId": 2,
+   "semestre": "2026-2",
+   "area": "Programação",
+   "modalidade": "Híbrido",
+   "integrantes": 4,
+   "status": "Concluído",
+   "progresso": 100,
+   "inicio": "2026-08-19",
+   "prazo": "2026-09-11",
+   "entregueEm": "2026-09-08"
+  }
+ ],
+ "metricasSemestre": [
+  {
+   "semestre": "2024-2",
+   "meta": 90,
+   "resultadosAtingidos": 85,
+   "entregasNoPrazo": [
+    {
+     "mes": "Ago",
+     "pct": 58
+    },
+    {
+     "mes": "Set",
+     "pct": 63
+    },
+    {
+     "mes": "Out",
+     "pct": 69
+    },
+    {
+     "mes": "Nov",
+     "pct": 74
+    },
+    {
+     "mes": "Dez",
+     "pct": 79
+    }
+   ]
+  },
+  {
+   "semestre": "2025-1",
+   "meta": 90,
+   "resultadosAtingidos": 88,
+   "entregasNoPrazo": [
+    {
+     "mes": "Fev",
+     "pct": 57
+    },
+    {
+     "mes": "Mar",
+     "pct": 62
+    },
+    {
+     "mes": "Abr",
+     "pct": 66
+    },
+    {
+     "mes": "Mai",
+     "pct": 71
+    },
+    {
+     "mes": "Jun",
+     "pct": 78
+    },
+    {
+     "mes": "Jul",
+     "pct": 84
+    }
+   ]
+  },
+  {
+   "semestre": "2026-1",
+   "meta": 90,
+   "resultadosAtingidos": 91,
+   "entregasNoPrazo": [
+    {
+     "mes": "Fev",
+     "pct": 60
+    },
+    {
+     "mes": "Mar",
+     "pct": 64
+    },
+    {
+     "mes": "Abr",
+     "pct": 67
+    },
+    {
+     "mes": "Mai",
+     "pct": 72
+    },
+    {
+     "mes": "Jun",
+     "pct": 80
+    },
+    {
+     "mes": "Jul",
+     "pct": 88
+    }
+   ]
+  },
+  {
+   "semestre": "2026-2",
+   "meta": 90,
+   "resultadosAtingidos": 94,
+   "entregasNoPrazo": [
+    {
+     "mes": "Mar",
+     "pct": 62
+    },
+    {
+     "mes": "Abr",
+     "pct": 65
+    },
+    {
+     "mes": "Mai",
+     "pct": 68
+    },
+    {
+     "mes": "Jun",
+     "pct": 66
+    },
+    {
+     "mes": "Jul",
+     "pct": 71
+    },
+    {
+     "mes": "Ago",
+     "pct": 83
+    },
+    {
+     "mes": "Set",
+     "pct": 94
+    }
+   ]
+  }
+ ],
+ "participacao": [
+  {
+   "disciplinaId": 1,
+   "mes": "2026-03",
+   "frequencia": 68.2,
+   "atividadesTotal": 18,
+   "atividadesConcluidas": 12,
+   "mapa": [
+    [
+     62,
+     68,
+     63,
+     62,
+     66
+    ],
+    [
+     65,
+     72,
+     72,
+     73,
+     67
+    ],
+    [
+     67,
+     65,
+     70,
+     69,
+     69
+    ],
+    [
+     72,
+     65,
+     64,
+     65,
+     67
+    ],
+    [
+     62,
+     61,
+     63,
+     57,
+     57
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 1,
+   "mes": "2026-04",
+   "frequencia": 68.6,
+   "atividadesTotal": 15,
+   "atividadesConcluidas": 10,
+   "mapa": [
+    [
+     70,
+     64,
+     66,
+     70,
+     72
+    ],
+    [
+     68,
+     65,
+     68,
+     66,
+     70
+    ],
+    [
+     72,
+     65,
+     67,
+     67,
+     66
+    ],
+    [
+     68,
+     67,
+     68,
+     70,
+     74
+    ],
+    [
+     59,
+     67,
+     59,
+     59,
+     66
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 1,
+   "mes": "2026-05",
+   "frequencia": 69.0,
+   "atividadesTotal": 16,
+   "atividadesConcluidas": 11,
+   "mapa": [
+    [
+     67,
+     65,
+     61,
+     73,
+     63
+    ],
+    [
+     73,
+     71,
+     66,
+     66,
+     70
+    ],
+    [
+     67,
+     70,
+     69,
+     72,
+     67
+    ],
+    [
+     64,
+     71,
+     66,
+     67,
+     68
+    ],
+    [
+     67,
+     65,
+     68,
+     60,
+     57
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 1,
+   "mes": "2026-06",
+   "frequencia": 70.8,
+   "atividadesTotal": 13,
+   "atividadesConcluidas": 8,
+   "mapa": [
+    [
+     70,
+     72,
+     68,
+     73,
+     70
+    ],
+    [
+     77,
+     76,
+     72,
+     70,
+     75
+    ],
+    [
+     67,
+     72,
+     70,
+     73,
+     68
+    ],
+    [
+     68,
+     66,
+     65,
+     67,
+     68
+    ],
+    [
+     68,
+     63,
+     59,
+     68,
+     59
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 1,
+   "mes": "2026-07",
+   "frequencia": 67.3,
+   "atividadesTotal": 15,
+   "atividadesConcluidas": 10,
+   "mapa": [
+    [
+     65,
+     70,
+     67,
+     69,
+     69
+    ],
+    [
+     73,
+     67,
+     73,
+     62,
+     63
+    ],
+    [
+     70,
+     75,
+     73,
+     72,
+     75
+    ],
+    [
+     73,
+     65,
+     62,
+     63,
+     66
+    ],
+    [
+     61,
+     64,
+     58,
+     63,
+     57
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 1,
+   "mes": "2026-08",
+   "frequencia": 69.4,
+   "atividadesTotal": 13,
+   "atividadesConcluidas": 8,
+   "mapa": [
+    [
+     63,
+     65,
+     72,
+     62,
+     69
+    ],
+    [
+     74,
+     66,
+     72,
+     65,
+     72
+    ],
+    [
+     73,
+     76,
+     66,
+     72,
+     69
+    ],
+    [
+     74,
+     73,
+     66,
+     69,
+     66
+    ],
+    [
+     65,
+     65,
+     66,
+     64,
+     68
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 1,
+   "mes": "2026-09",
+   "frequencia": 72.6,
+   "atividadesTotal": 13,
+   "atividadesConcluidas": 9,
+   "mapa": [
+    [
+     69,
+     76,
+     66,
+     70,
+     68
+    ],
+    [
+     76,
+     68,
+     75,
+     79,
+     74
+    ],
+    [
+     77,
+     73,
+     75,
+     73,
+     74
+    ],
+    [
+     76,
+     68,
+     71,
+     73,
+     70
+    ],
+    [
+     70,
+     62,
+     67,
+     72,
+     69
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 2,
+   "mes": "2026-03",
+   "frequencia": 64.1,
+   "atividadesTotal": 17,
+   "atividadesConcluidas": 10,
+   "mapa": [
+    [
+     59,
+     62,
+     60,
+     61,
+     65
+    ],
+    [
+     61,
+     67,
+     67,
+     66,
+     61
+    ],
+    [
+     64,
+     63,
+     61,
+     67,
+     71
+    ],
+    [
+     69,
+     61,
+     58,
+     61,
+     64
+    ],
+    [
+     57,
+     60,
+     61,
+     58,
+     57
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 2,
+   "mes": "2026-04",
+   "frequencia": 65.4,
+   "atividadesTotal": 20,
+   "atividadesConcluidas": 11,
+   "mapa": [
+    [
+     66,
+     68,
+     61,
+     64,
+     67
+    ],
+    [
+     71,
+     63,
+     72,
+     63,
+     72
+    ],
+    [
+     71,
+     69,
+     65,
+     73,
+     63
+    ],
+    [
+     63,
+     69,
+     68,
+     69,
+     71
+    ],
+    [
+     62,
+     65,
+     55,
+     54,
+     59
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 2,
+   "mes": "2026-05",
+   "frequencia": 66.4,
+   "atividadesTotal": 18,
+   "atividadesConcluidas": 11,
+   "mapa": [
+    [
+     60,
+     64,
+     70,
+     62,
+     63
+    ],
+    [
+     65,
+     63,
+     63,
+     73,
+     73
+    ],
+    [
+     65,
+     72,
+     69,
+     64,
+     74
+    ],
+    [
+     70,
+     61,
+     62,
+     65,
+     68
+    ],
+    [
+     64,
+     64,
+     60,
+     55,
+     60
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 2,
+   "mes": "2026-06",
+   "frequencia": 66.7,
+   "atividadesTotal": 19,
+   "atividadesConcluidas": 12,
+   "mapa": [
+    [
+     66,
+     66,
+     64,
+     67,
+     65
+    ],
+    [
+     67,
+     72,
+     69,
+     65,
+     66
+    ],
+    [
+     68,
+     72,
+     67,
+     72,
+     70
+    ],
+    [
+     63,
+     71,
+     71,
+     69,
+     72
+    ],
+    [
+     64,
+     62,
+     61,
+     61,
+     63
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 2,
+   "mes": "2026-07",
+   "frequencia": 63.5,
+   "atividadesTotal": 15,
+   "atividadesConcluidas": 8,
+   "mapa": [
+    [
+     66,
+     59,
+     59,
+     62,
+     56
+    ],
+    [
+     64,
+     65,
+     70,
+     63,
+     62
+    ],
+    [
+     69,
+     61,
+     60,
+     61,
+     62
+    ],
+    [
+     59,
+     58,
+     67,
+     63,
+     58
+    ],
+    [
+     58,
+     57,
+     57,
+     58,
+     63
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 2,
+   "mes": "2026-08",
+   "frequencia": 65.9,
+   "atividadesTotal": 17,
+   "atividadesConcluidas": 12,
+   "mapa": [
+    [
+     62,
+     65,
+     58,
+     70,
+     68
+    ],
+    [
+     68,
+     68,
+     72,
+     63,
+     70
+    ],
+    [
+     68,
+     64,
+     63,
+     68,
+     73
+    ],
+    [
+     64,
+     61,
+     69,
+     62,
+     70
+    ],
+    [
+     55,
+     61,
+     60,
+     60,
+     56
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 2,
+   "mes": "2026-09",
+   "frequencia": 69.1,
+   "atividadesTotal": 18,
+   "atividadesConcluidas": 12,
+   "mapa": [
+    [
+     71,
+     69,
+     65,
+     62,
+     73
+    ],
+    [
+     66,
+     67,
+     66,
+     73,
+     69
+    ],
+    [
+     77,
+     76,
+     76,
+     76,
+     71
+    ],
+    [
+     64,
+     65,
+     68,
+     66,
+     73
+    ],
+    [
+     57,
+     60,
+     58,
+     66,
+     60
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 3,
+   "mes": "2026-03",
+   "frequencia": 62.1,
+   "atividadesTotal": 16,
+   "atividadesConcluidas": 11,
+   "mapa": [
+    [
+     65,
+     57,
+     56,
+     58,
+     57
+    ],
+    [
+     61,
+     58,
+     67,
+     68,
+     60
+    ],
+    [
+     64,
+     66,
+     66,
+     70,
+     68
+    ],
+    [
+     59,
+     65,
+     60,
+     65,
+     60
+    ],
+    [
+     57,
+     55,
+     60,
+     56,
+     62
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 3,
+   "mes": "2026-04",
+   "frequencia": 62.7,
+   "atividadesTotal": 14,
+   "atividadesConcluidas": 8,
+   "mapa": [
+    [
+     63,
+     58,
+     56,
+     59,
+     56
+    ],
+    [
+     68,
+     66,
+     68,
+     62,
+     62
+    ],
+    [
+     69,
+     70,
+     63,
+     62,
+     69
+    ],
+    [
+     66,
+     68,
+     59,
+     66,
+     57
+    ],
+    [
+     59,
+     52,
+     61,
+     55,
+     60
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 3,
+   "mes": "2026-05",
+   "frequencia": 63.3,
+   "atividadesTotal": 12,
+   "atividadesConcluidas": 7,
+   "mapa": [
+    [
+     56,
+     65,
+     61,
+     56,
+     67
+    ],
+    [
+     66,
+     64,
+     62,
+     63,
+     69
+    ],
+    [
+     71,
+     65,
+     61,
+     61,
+     69
+    ],
+    [
+     64,
+     64,
+     60,
+     69,
+     59
+    ],
+    [
+     56,
+     55,
+     59,
+     52,
+     58
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 3,
+   "mes": "2026-06",
+   "frequencia": 63.8,
+   "atividadesTotal": 15,
+   "atividadesConcluidas": 9,
+   "mapa": [
+    [
+     59,
+     56,
+     68,
+     66,
+     63
+    ],
+    [
+     68,
+     67,
+     60,
+     66,
+     61
+    ],
+    [
+     65,
+     64,
+     70,
+     64,
+     70
+    ],
+    [
+     67,
+     61,
+     61,
+     66,
+     59
+    ],
+    [
+     63,
+     59,
+     63,
+     61,
+     62
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 3,
+   "mes": "2026-07",
+   "frequencia": 61.3,
+   "atividadesTotal": 15,
+   "atividadesConcluidas": 10,
+   "mapa": [
+    [
+     64,
+     60,
+     65,
+     60,
+     59
+    ],
+    [
+     65,
+     59,
+     61,
+     64,
+     65
+    ],
+    [
+     63,
+     57,
+     60,
+     62,
+     68
+    ],
+    [
+     60,
+     55,
+     61,
+     64,
+     56
+    ],
+    [
+     58,
+     51,
+     57,
+     57,
+     52
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 3,
+   "mes": "2026-08",
+   "frequencia": 63.5,
+   "atividadesTotal": 19,
+   "atividadesConcluidas": 12,
+   "mapa": [
+    [
+     57,
+     58,
+     65,
+     65,
+     64
+    ],
+    [
+     68,
+     64,
+     67,
+     64,
+     67
+    ],
+    [
+     65,
+     60,
+     60,
+     60,
+     64
+    ],
+    [
+     59,
+     63,
+     59,
+     61,
+     61
+    ],
+    [
+     53,
+     55,
+     54,
+     59,
+     61
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 3,
+   "mes": "2026-09",
+   "frequencia": 66.7,
+   "atividadesTotal": 16,
+   "atividadesConcluidas": 10,
+   "mapa": [
+    [
+     59,
+     67,
+     60,
+     61,
+     60
+    ],
+    [
+     70,
+     63,
+     66,
+     74,
+     73
+    ],
+    [
+     65,
+     64,
+     75,
+     67,
+     67
+    ],
+    [
+     70,
+     65,
+     72,
+     63,
+     66
+    ],
+    [
+     59,
+     63,
+     63,
+     61,
+     61
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 4,
+   "mes": "2026-03",
+   "frequencia": 60.2,
+   "atividadesTotal": 15,
+   "atividadesConcluidas": 9,
+   "mapa": [
+    [
+     62,
+     59,
+     61,
+     64,
+     58
+    ],
+    [
+     56,
+     56,
+     67,
+     61,
+     61
+    ],
+    [
+     67,
+     67,
+     57,
+     61,
+     61
+    ],
+    [
+     60,
+     59,
+     65,
+     65,
+     61
+    ],
+    [
+     59,
+     51,
+     53,
+     55,
+     57
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 4,
+   "mes": "2026-04",
+   "frequencia": 60.6,
+   "atividadesTotal": 19,
+   "atividadesConcluidas": 12,
+   "mapa": [
+    [
+     61,
+     55,
+     56,
+     54,
+     57
+    ],
+    [
+     67,
+     63,
+     67,
+     60,
+     58
+    ],
+    [
+     65,
+     60,
+     62,
+     60,
+     62
+    ],
+    [
+     56,
+     66,
+     61,
+     63,
+     57
+    ],
+    [
+     51,
+     52,
+     57,
+     51,
+     60
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 4,
+   "mes": "2026-05",
+   "frequencia": 61.7,
+   "atividadesTotal": 15,
+   "atividadesConcluidas": 8,
+   "mapa": [
+    [
+     63,
+     57,
+     58,
+     60,
+     55
+    ],
+    [
+     67,
+     67,
+     60,
+     58,
+     63
+    ],
+    [
+     69,
+     62,
+     58,
+     67,
+     65
+    ],
+    [
+     63,
+     60,
+     58,
+     61,
+     62
+    ],
+    [
+     50,
+     56,
+     59,
+     53,
+     61
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 4,
+   "mes": "2026-06",
+   "frequencia": 62.1,
+   "atividadesTotal": 13,
+   "atividadesConcluidas": 8,
+   "mapa": [
+    [
+     59,
+     60,
+     55,
+     56,
+     63
+    ],
+    [
+     63,
+     59,
+     61,
+     61,
+     69
+    ],
+    [
+     63,
+     59,
+     62,
+     64,
+     67
+    ],
+    [
+     66,
+     57,
+     57,
+     57,
+     66
+    ],
+    [
+     55,
+     61,
+     55,
+     56,
+     55
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 4,
+   "mes": "2026-07",
+   "frequencia": 59.7,
+   "atividadesTotal": 18,
+   "atividadesConcluidas": 12,
+   "mapa": [
+    [
+     59,
+     53,
+     56,
+     60,
+     61
+    ],
+    [
+     56,
+     58,
+     62,
+     56,
+     61
+    ],
+    [
+     59,
+     67,
+     63,
+     63,
+     65
+    ],
+    [
+     65,
+     59,
+     62,
+     65,
+     59
+    ],
+    [
+     55,
+     58,
+     49,
+     52,
+     55
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 4,
+   "mes": "2026-08",
+   "frequencia": 61.8,
+   "atividadesTotal": 12,
+   "atividadesConcluidas": 7,
+   "mapa": [
+    [
+     59,
+     65,
+     60,
+     62,
+     63
+    ],
+    [
+     63,
+     63,
+     63,
+     62,
+     69
+    ],
+    [
+     62,
+     62,
+     58,
+     60,
+     67
+    ],
+    [
+     62,
+     66,
+     59,
+     56,
+     58
+    ],
+    [
+     52,
+     57,
+     50,
+     55,
+     53
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 4,
+   "mes": "2026-09",
+   "frequencia": 65.0,
+   "atividadesTotal": 18,
+   "atividadesConcluidas": 12,
+   "mapa": [
+    [
+     61,
+     65,
+     68,
+     60,
+     58
+    ],
+    [
+     69,
+     65,
+     65,
+     61,
+     63
+    ],
+    [
+     65,
+     64,
+     70,
+     69,
+     67
+    ],
+    [
+     69,
+     60,
+     61,
+     67,
+     71
+    ],
+    [
+     61,
+     56,
+     55,
+     61,
+     62
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 5,
+   "mes": "2026-03",
+   "frequencia": 58.2,
+   "atividadesTotal": 20,
+   "atividadesConcluidas": 13,
+   "mapa": [
+    [
+     59,
+     54,
+     59,
+     57,
+     60
+    ],
+    [
+     60,
+     62,
+     63,
+     64,
+     56
+    ],
+    [
+     58,
+     56,
+     66,
+     58,
+     55
+    ],
+    [
+     55,
+     55,
+     56,
+     63,
+     59
+    ],
+    [
+     51,
+     47,
+     49,
+     49,
+     47
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 5,
+   "mes": "2026-04",
+   "frequencia": 59.7,
+   "atividadesTotal": 13,
+   "atividadesConcluidas": 8,
+   "mapa": [
+    [
+     58,
+     59,
+     61,
+     56,
+     63
+    ],
+    [
+     56,
+     63,
+     60,
+     57,
+     66
+    ],
+    [
+     59,
+     57,
+     59,
+     60,
+     58
+    ],
+    [
+     59,
+     59,
+     56,
+     54,
+     54
+    ],
+    [
+     58,
+     55,
+     58,
+     59,
+     56
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 5,
+   "mes": "2026-05",
+   "frequencia": 61.2,
+   "atividadesTotal": 17,
+   "atividadesConcluidas": 11,
+   "mapa": [
+    [
+     59,
+     59,
+     54,
+     62,
+     53
+    ],
+    [
+     57,
+     58,
+     59,
+     57,
+     67
+    ],
+    [
+     60,
+     62,
+     67,
+     69,
+     63
+    ],
+    [
+     66,
+     56,
+     66,
+     61,
+     60
+    ],
+    [
+     60,
+     61,
+     58,
+     59,
+     60
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 5,
+   "mes": "2026-06",
+   "frequencia": 60.7,
+   "atividadesTotal": 16,
+   "atividadesConcluidas": 10,
+   "mapa": [
+    [
+     63,
+     55,
+     64,
+     58,
+     59
+    ],
+    [
+     57,
+     65,
+     59,
+     58,
+     61
+    ],
+    [
+     66,
+     57,
+     69,
+     68,
+     58
+    ],
+    [
+     66,
+     55,
+     59,
+     65,
+     56
+    ],
+    [
+     59,
+     56,
+     61,
+     60,
+     56
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 5,
+   "mes": "2026-07",
+   "frequencia": 58.5,
+   "atividadesTotal": 14,
+   "atividadesConcluidas": 9,
+   "mapa": [
+    [
+     54,
+     60,
+     56,
+     59,
+     51
+    ],
+    [
+     57,
+     58,
+     59,
+     55,
+     64
+    ],
+    [
+     59,
+     56,
+     61,
+     57,
+     62
+    ],
+    [
+     54,
+     56,
+     64,
+     57,
+     63
+    ],
+    [
+     56,
+     47,
+     49,
+     58,
+     56
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 5,
+   "mes": "2026-08",
+   "frequencia": 60.4,
+   "atividadesTotal": 20,
+   "atividadesConcluidas": 14,
+   "mapa": [
+    [
+     55,
+     54,
+     54,
+     64,
+     61
+    ],
+    [
+     58,
+     66,
+     57,
+     59,
+     56
+    ],
+    [
+     57,
+     63,
+     65,
+     59,
+     60
+    ],
+    [
+     56,
+     56,
+     58,
+     56,
+     57
+    ],
+    [
+     60,
+     57,
+     50,
+     49,
+     58
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 5,
+   "mes": "2026-09",
+   "frequencia": 63.6,
+   "atividadesTotal": 15,
+   "atividadesConcluidas": 11,
+   "mapa": [
+    [
+     65,
+     61,
+     65,
+     65,
+     63
+    ],
+    [
+     69,
+     60,
+     66,
+     67,
+     61
+    ],
+    [
+     67,
+     64,
+     61,
+     61,
+     67
+    ],
+    [
+     67,
+     67,
+     63,
+     63,
+     59
+    ],
+    [
+     59,
+     55,
+     53,
+     55,
+     57
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 6,
+   "mes": "2026-03",
+   "frequencia": 92.3,
+   "atividadesTotal": 18,
+   "atividadesConcluidas": 12,
+   "mapa": [
+    [
+     86,
+     95,
+     92,
+     96,
+     93
+    ],
+    [
+     98,
+     98,
+     94,
+     91,
+     91
+    ],
+    [
+     96,
+     97,
+     91,
+     89,
+     92
+    ],
+    [
+     87,
+     96,
+     90,
+     87,
+     93
+    ],
+    [
+     89,
+     87,
+     92,
+     84,
+     88
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 6,
+   "mes": "2026-04",
+   "frequencia": 93.7,
+   "atividadesTotal": 13,
+   "atividadesConcluidas": 9,
+   "mapa": [
+    [
+     97,
+     93,
+     92,
+     87,
+     89
+    ],
+    [
+     95,
+     96,
+     96,
+     90,
+     100
+    ],
+    [
+     93,
+     90,
+     100,
+     98,
+     97
+    ],
+    [
+     99,
+     88,
+     96,
+     90,
+     98
+    ],
+    [
+     82,
+     88,
+     92,
+     91,
+     85
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 6,
+   "mes": "2026-05",
+   "frequencia": 93.6,
+   "atividadesTotal": 15,
+   "atividadesConcluidas": 10,
+   "mapa": [
+    [
+     90,
+     89,
+     86,
+     88,
+     86
+    ],
+    [
+     94,
+     92,
+     93,
+     92,
+     94
+    ],
+    [
+     95,
+     94,
+     92,
+     94,
+     91
+    ],
+    [
+     96,
+     96,
+     88,
+     100,
+     88
+    ],
+    [
+     92,
+     85,
+     84,
+     88,
+     82
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 6,
+   "mes": "2026-06",
+   "frequencia": 95.3,
+   "atividadesTotal": 12,
+   "atividadesConcluidas": 8,
+   "mapa": [
+    [
+     95,
+     91,
+     90,
+     95,
+     99
+    ],
+    [
+     91,
+     91,
+     92,
+     96,
+     99
+    ],
+    [
+     93,
+     95,
+     95,
+     98,
+     98
+    ],
+    [
+     96,
+     98,
+     93,
+     91,
+     98
+    ],
+    [
+     91,
+     93,
+     84,
+     90,
+     84
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 6,
+   "mes": "2026-07",
+   "frequencia": 92.1,
+   "atividadesTotal": 14,
+   "atividadesConcluidas": 8,
+   "mapa": [
+    [
+     93,
+     85,
+     91,
+     90,
+     91
+    ],
+    [
+     95,
+     92,
+     98,
+     97,
+     96
+    ],
+    [
+     90,
+     90,
+     91,
+     97,
+     98
+    ],
+    [
+     94,
+     97,
+     96,
+     94,
+     95
+    ],
+    [
+     87,
+     84,
+     81,
+     87,
+     85
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 6,
+   "mes": "2026-08",
+   "frequencia": 94.2,
+   "atividadesTotal": 15,
+   "atividadesConcluidas": 11,
+   "mapa": [
+    [
+     88,
+     87,
+     96,
+     98,
+     88
+    ],
+    [
+     99,
+     99,
+     93,
+     94,
+     97
+    ],
+    [
+     97,
+     91,
+     99,
+     93,
+     100
+    ],
+    [
+     92,
+     91,
+     91,
+     90,
+     99
+    ],
+    [
+     88,
+     86,
+     88,
+     88,
+     94
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 6,
+   "mes": "2026-09",
+   "frequencia": 97.4,
+   "atividadesTotal": 16,
+   "atividadesConcluidas": 10,
+   "mapa": [
+    [
+     90,
+     91,
+     98,
+     96,
+     93
+    ],
+    [
+     97,
+     100,
+     100,
+     93,
+     100
+    ],
+    [
+     100,
+     94,
+     97,
+     95,
+     100
+    ],
+    [
+     98,
+     92,
+     100,
+     100,
+     97
+    ],
+    [
+     94,
+     96,
+     88,
+     90,
+     88
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 7,
+   "mes": "2026-03",
+   "frequencia": 93.2,
+   "atividadesTotal": 16,
+   "atividadesConcluidas": 9,
+   "mapa": [
+    [
+     87,
+     90,
+     97,
+     89,
+     97
+    ],
+    [
+     97,
+     90,
+     91,
+     93,
+     93
+    ],
+    [
+     100,
+     98,
+     94,
+     94,
+     93
+    ],
+    [
+     91,
+     89,
+     91,
+     88,
+     92
+    ],
+    [
+     84,
+     89,
+     86,
+     89,
+     89
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 7,
+   "mes": "2026-04",
+   "frequencia": 93.3,
+   "atividadesTotal": 20,
+   "atividadesConcluidas": 12,
+   "mapa": [
+    [
+     92,
+     88,
+     97,
+     92,
+     95
+    ],
+    [
+     97,
+     91,
+     98,
+     98,
+     92
+    ],
+    [
+     99,
+     94,
+     99,
+     92,
+     100
+    ],
+    [
+     94,
+     98,
+     96,
+     98,
+     89
+    ],
+    [
+     87,
+     83,
+     93,
+     89,
+     92
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 7,
+   "mes": "2026-05",
+   "frequencia": 93.5,
+   "atividadesTotal": 13,
+   "atividadesConcluidas": 8,
+   "mapa": [
+    [
+     89,
+     91,
+     96,
+     96,
+     88
+    ],
+    [
+     96,
+     95,
+     92,
+     95,
+     93
+    ],
+    [
+     92,
+     99,
+     99,
+     98,
+     91
+    ],
+    [
+     94,
+     99,
+     95,
+     95,
+     94
+    ],
+    [
+     89,
+     93,
+     84,
+     92,
+     89
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 7,
+   "mes": "2026-06",
+   "frequencia": 94.4,
+   "atividadesTotal": 12,
+   "atividadesConcluidas": 8,
+   "mapa": [
+    [
+     88,
+     87,
+     93,
+     98,
+     95
+    ],
+    [
+     95,
+     100,
+     100,
+     91,
+     100
+    ],
+    [
+     100,
+     91,
+     100,
+     99,
+     92
+    ],
+    [
+     92,
+     99,
+     97,
+     97,
+     97
+    ],
+    [
+     92,
+     91,
+     89,
+     93,
+     86
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 7,
+   "mes": "2026-07",
+   "frequencia": 91.8,
+   "atividadesTotal": 17,
+   "atividadesConcluidas": 12,
+   "mapa": [
+    [
+     93,
+     89,
+     95,
+     84,
+     88
+    ],
+    [
+     90,
+     94,
+     97,
+     93,
+     90
+    ],
+    [
+     90,
+     90,
+     97,
+     92,
+     93
+    ],
+    [
+     96,
+     90,
+     93,
+     94,
+     97
+    ],
+    [
+     89,
+     88,
+     89,
+     91,
+     91
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 7,
+   "mes": "2026-08",
+   "frequencia": 94.1,
+   "atividadesTotal": 13,
+   "atividadesConcluidas": 8,
+   "mapa": [
+    [
+     89,
+     98,
+     93,
+     89,
+     96
+    ],
+    [
+     94,
+     94,
+     98,
+     98,
+     96
+    ],
+    [
+     91,
+     95,
+     92,
+     93,
+     100
+    ],
+    [
+     95,
+     92,
+     92,
+     93,
+     97
+    ],
+    [
+     84,
+     88,
+     91,
+     84,
+     93
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 7,
+   "mes": "2026-09",
+   "frequencia": 97.3,
+   "atividadesTotal": 16,
+   "atividadesConcluidas": 10,
+   "mapa": [
+    [
+     95,
+     99,
+     91,
+     89,
+     98
+    ],
+    [
+     100,
+     96,
+     93,
+     98,
+     100
+    ],
+    [
+     96,
+     100,
+     100,
+     94,
+     100
+    ],
+    [
+     100,
+     92,
+     98,
+     95,
+     95
+    ],
+    [
+     94,
+     89,
+     96,
+     97,
+     90
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 8,
+   "mes": "2026-03",
+   "frequencia": 94.6,
+   "atividadesTotal": 13,
+   "atividadesConcluidas": 9,
+   "mapa": [
+    [
+     91,
+     91,
+     96,
+     93,
+     89
+    ],
+    [
+     96,
+     93,
+     93,
+     98,
+     98
+    ],
+    [
+     94,
+     93,
+     91,
+     95,
+     94
+    ],
+    [
+     96,
+     90,
+     90,
+     96,
+     92
+    ],
+    [
+     87,
+     86,
+     89,
+     84,
+     83
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 8,
+   "mes": "2026-04",
+   "frequencia": 94.9,
+   "atividadesTotal": 12,
+   "atividadesConcluidas": 7,
+   "mapa": [
+    [
+     93,
+     98,
+     94,
+     88,
+     88
+    ],
+    [
+     94,
+     98,
+     94,
+     100,
+     96
+    ],
+    [
+     96,
+     99,
+     98,
+     94,
+     95
+    ],
+    [
+     92,
+     91,
+     94,
+     90,
+     98
+    ],
+    [
+     94,
+     95,
+     86,
+     84,
+     88
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 8,
+   "mes": "2026-05",
+   "frequencia": 96.1,
+   "atividadesTotal": 17,
+   "atividadesConcluidas": 11,
+   "mapa": [
+    [
+     95,
+     97,
+     91,
+     100,
+     91
+    ],
+    [
+     99,
+     92,
+     97,
+     95,
+     92
+    ],
+    [
+     100,
+     95,
+     96,
+     100,
+     100
+    ],
+    [
+     100,
+     100,
+     94,
+     98,
+     95
+    ],
+    [
+     91,
+     90,
+     94,
+     90,
+     86
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 8,
+   "mes": "2026-06",
+   "frequencia": 96.7,
+   "atividadesTotal": 17,
+   "atividadesConcluidas": 10,
+   "mapa": [
+    [
+     90,
+     91,
+     94,
+     92,
+     94
+    ],
+    [
+     100,
+     98,
+     92,
+     92,
+     100
+    ],
+    [
+     100,
+     100,
+     100,
+     100,
+     100
+    ],
+    [
+     96,
+     92,
+     99,
+     94,
+     100
+    ],
+    [
+     85,
+     94,
+     90,
+     88,
+     91
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 8,
+   "mes": "2026-07",
+   "frequencia": 94.3,
+   "atividadesTotal": 12,
+   "atividadesConcluidas": 7,
+   "mapa": [
+    [
+     96,
+     92,
+     91,
+     92,
+     89
+    ],
+    [
+     91,
+     90,
+     98,
+     99,
+     95
+    ],
+    [
+     91,
+     92,
+     92,
+     100,
+     100
+    ],
+    [
+     98,
+     90,
+     100,
+     96,
+     95
+    ],
+    [
+     90,
+     92,
+     90,
+     89,
+     88
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 8,
+   "mes": "2026-08",
+   "frequencia": 96.0,
+   "atividadesTotal": 15,
+   "atividadesConcluidas": 10,
+   "mapa": [
+    [
+     93,
+     90,
+     94,
+     92,
+     98
+    ],
+    [
+     95,
+     91,
+     92,
+     100,
+     99
+    ],
+    [
+     96,
+     92,
+     95,
+     100,
+     99
+    ],
+    [
+     100,
+     93,
+     91,
+     92,
+     91
+    ],
+    [
+     94,
+     93,
+     91,
+     94,
+     88
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 8,
+   "mes": "2026-09",
+   "frequencia": 99.2,
+   "atividadesTotal": 16,
+   "atividadesConcluidas": 12,
+   "mapa": [
+    [
+     97,
+     92,
+     96,
+     96,
+     94
+    ],
+    [
+     97,
+     100,
+     100,
+     94,
+     100
+    ],
+    [
+     98,
+     100,
+     100,
+     96,
+     95
+    ],
+    [
+     97,
+     94,
+     99,
+     100,
+     98
+    ],
+    [
+     89,
+     99,
+     91,
+     90,
+     89
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 9,
+   "mes": "2026-03",
+   "frequencia": 58.6,
+   "atividadesTotal": 19,
+   "atividadesConcluidas": 12,
+   "mapa": [
+    [
+     56,
+     53,
+     53,
+     51,
+     52
+    ],
+    [
+     59,
+     62,
+     65,
+     57,
+     59
+    ],
+    [
+     59,
+     57,
+     57,
+     56,
+     63
+    ],
+    [
+     60,
+     59,
+     58,
+     63,
+     55
+    ],
+    [
+     53,
+     57,
+     57,
+     58,
+     57
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 9,
+   "mes": "2026-04",
+   "frequencia": 59.4,
+   "atividadesTotal": 17,
+   "atividadesConcluidas": 10,
+   "mapa": [
+    [
+     60,
+     57,
+     60,
+     52,
+     63
+    ],
+    [
+     64,
+     65,
+     63,
+     64,
+     63
+    ],
+    [
+     63,
+     58,
+     66,
+     59,
+     66
+    ],
+    [
+     57,
+     53,
+     57,
+     62,
+     57
+    ],
+    [
+     51,
+     49,
+     59,
+     47,
+     59
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 9,
+   "mes": "2026-05",
+   "frequencia": 59.9,
+   "atividadesTotal": 13,
+   "atividadesConcluidas": 8,
+   "mapa": [
+    [
+     55,
+     54,
+     53,
+     55,
+     56
+    ],
+    [
+     60,
+     57,
+     63,
+     66,
+     61
+    ],
+    [
+     58,
+     63,
+     65,
+     62,
+     67
+    ],
+    [
+     57,
+     60,
+     63,
+     60,
+     54
+    ],
+    [
+     49,
+     50,
+     50,
+     50,
+     54
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 9,
+   "mes": "2026-06",
+   "frequencia": 60.4,
+   "atividadesTotal": 12,
+   "atividadesConcluidas": 7,
+   "mapa": [
+    [
+     60,
+     53,
+     63,
+     62,
+     56
+    ],
+    [
+     58,
+     56,
+     58,
+     62,
+     65
+    ],
+    [
+     60,
+     65,
+     62,
+     57,
+     63
+    ],
+    [
+     59,
+     57,
+     61,
+     57,
+     61
+    ],
+    [
+     49,
+     58,
+     50,
+     54,
+     59
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 9,
+   "mes": "2026-07",
+   "frequencia": 57.9,
+   "atividadesTotal": 16,
+   "atividadesConcluidas": 9,
+   "mapa": [
+    [
+     52,
+     52,
+     55,
+     54,
+     53
+    ],
+    [
+     56,
+     53,
+     59,
+     60,
+     58
+    ],
+    [
+     63,
+     60,
+     61,
+     54,
+     66
+    ],
+    [
+     63,
+     59,
+     55,
+     53,
+     57
+    ],
+    [
+     49,
+     51,
+     47,
+     52,
+     50
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 9,
+   "mes": "2026-08",
+   "frequencia": 59.5,
+   "atividadesTotal": 13,
+   "atividadesConcluidas": 9,
+   "mapa": [
+    [
+     61,
+     61,
+     62,
+     58,
+     53
+    ],
+    [
+     64,
+     59,
+     62,
+     60,
+     57
+    ],
+    [
+     66,
+     58,
+     56,
+     67,
+     60
+    ],
+    [
+     61,
+     57,
+     57,
+     60,
+     61
+    ],
+    [
+     53,
+     54,
+     53,
+     53,
+     50
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 9,
+   "mes": "2026-09",
+   "frequencia": 62.7,
+   "atividadesTotal": 12,
+   "atividadesConcluidas": 9,
+   "mapa": [
+    [
+     59,
+     65,
+     57,
+     62,
+     61
+    ],
+    [
+     61,
+     62,
+     65,
+     61,
+     58
+    ],
+    [
+     59,
+     69,
+     63,
+     69,
+     59
+    ],
+    [
+     58,
+     63,
+     67,
+     60,
+     58
+    ],
+    [
+     54,
+     58,
+     61,
+     52,
+     62
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 10,
+   "mes": "2026-03",
+   "frequencia": 93.8,
+   "atividadesTotal": 20,
+   "atividadesConcluidas": 11,
+   "mapa": [
+    [
+     88,
+     97,
+     94,
+     89,
+     88
+    ],
+    [
+     97,
+     98,
+     94,
+     99,
+     100
+    ],
+    [
+     95,
+     94,
+     96,
+     100,
+     90
+    ],
+    [
+     97,
+     97,
+     96,
+     91,
+     92
+    ],
+    [
+     82,
+     92,
+     93,
+     94,
+     94
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 10,
+   "mes": "2026-04",
+   "frequencia": 93.4,
+   "atividadesTotal": 18,
+   "atividadesConcluidas": 11,
+   "mapa": [
+    [
+     91,
+     91,
+     97,
+     91,
+     96
+    ],
+    [
+     94,
+     94,
+     93,
+     91,
+     100
+    ],
+    [
+     93,
+     96,
+     90,
+     98,
+     96
+    ],
+    [
+     90,
+     97,
+     96,
+     95,
+     95
+    ],
+    [
+     86,
+     91,
+     92,
+     85,
+     84
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 10,
+   "mes": "2026-05",
+   "frequencia": 95.1,
+   "atividadesTotal": 15,
+   "atividadesConcluidas": 9,
+   "mapa": [
+    [
+     89,
+     91,
+     90,
+     87,
+     88
+    ],
+    [
+     97,
+     100,
+     100,
+     100,
+     96
+    ],
+    [
+     100,
+     95,
+     97,
+     99,
+     93
+    ],
+    [
+     100,
+     91,
+     90,
+     100,
+     94
+    ],
+    [
+     94,
+     89,
+     93,
+     92,
+     92
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 10,
+   "mes": "2026-06",
+   "frequencia": 94.9,
+   "atividadesTotal": 13,
+   "atividadesConcluidas": 9,
+   "mapa": [
+    [
+     96,
+     93,
+     92,
+     91,
+     91
+    ],
+    [
+     99,
+     99,
+     99,
+     99,
+     99
+    ],
+    [
+     100,
+     100,
+     93,
+     95,
+     93
+    ],
+    [
+     92,
+     95,
+     100,
+     91,
+     90
+    ],
+    [
+     94,
+     92,
+     89,
+     89,
+     84
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 10,
+   "mes": "2026-07",
+   "frequencia": 92.4,
+   "atividadesTotal": 19,
+   "atividadesConcluidas": 12,
+   "mapa": [
+    [
+     88,
+     96,
+     86,
+     96,
+     85
+    ],
+    [
+     98,
+     97,
+     97,
+     98,
+     99
+    ],
+    [
+     98,
+     100,
+     95,
+     99,
+     89
+    ],
+    [
+     93,
+     88,
+     89,
+     98,
+     96
+    ],
+    [
+     92,
+     91,
+     89,
+     88,
+     89
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 10,
+   "mes": "2026-08",
+   "frequencia": 94.4,
+   "atividadesTotal": 17,
+   "atividadesConcluidas": 11,
+   "mapa": [
+    [
+     88,
+     91,
+     91,
+     90,
+     92
+    ],
+    [
+     91,
+     99,
+     99,
+     92,
+     96
+    ],
+    [
+     100,
+     99,
+     96,
+     95,
+     98
+    ],
+    [
+     95,
+     90,
+     96,
+     92,
+     95
+    ],
+    [
+     94,
+     91,
+     91,
+     83,
+     90
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 10,
+   "mes": "2026-09",
+   "frequencia": 97.6,
+   "atividadesTotal": 12,
+   "atividadesConcluidas": 9,
+   "mapa": [
+    [
+     94,
+     98,
+     100,
+     96,
+     91
+    ],
+    [
+     94,
+     100,
+     100,
+     94,
+     97
+    ],
+    [
+     97,
+     100,
+     96,
+     100,
+     98
+    ],
+    [
+     99,
+     97,
+     92,
+     100,
+     97
+    ],
+    [
+     88,
+     97,
+     88,
+     89,
+     95
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 11,
+   "mes": "2026-03",
+   "frequencia": 88.9,
+   "atividadesTotal": 18,
+   "atividadesConcluidas": 10,
+   "mapa": [
+    [
+     88,
+     84,
+     83,
+     85,
+     83
+    ],
+    [
+     94,
+     85,
+     94,
+     86,
+     95
+    ],
+    [
+     93,
+     91,
+     88,
+     89,
+     94
+    ],
+    [
+     85,
+     92,
+     90,
+     87,
+     90
+    ],
+    [
+     88,
+     88,
+     85,
+     83,
+     87
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 11,
+   "mes": "2026-04",
+   "frequencia": 90.4,
+   "atividadesTotal": 18,
+   "atividadesConcluidas": 11,
+   "mapa": [
+    [
+     92,
+     94,
+     83,
+     84,
+     90
+    ],
+    [
+     97,
+     86,
+     94,
+     93,
+     91
+    ],
+    [
+     98,
+     90,
+     92,
+     91,
+     95
+    ],
+    [
+     86,
+     94,
+     94,
+     87,
+     90
+    ],
+    [
+     83,
+     89,
+     81,
+     87,
+     87
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 11,
+   "mes": "2026-05",
+   "frequencia": 90.9,
+   "atividadesTotal": 12,
+   "atividadesConcluidas": 8,
+   "mapa": [
+    [
+     95,
+     83,
+     84,
+     88,
+     92
+    ],
+    [
+     97,
+     89,
+     96,
+     96,
+     92
+    ],
+    [
+     89,
+     91,
+     97,
+     87,
+     87
+    ],
+    [
+     90,
+     96,
+     90,
+     89,
+     88
+    ],
+    [
+     84,
+     85,
+     82,
+     79,
+     85
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 11,
+   "mes": "2026-06",
+   "frequencia": 92.1,
+   "atividadesTotal": 16,
+   "atividadesConcluidas": 10,
+   "mapa": [
+    [
+     91,
+     84,
+     91,
+     93,
+     86
+    ],
+    [
+     88,
+     88,
+     98,
+     90,
+     97
+    ],
+    [
+     90,
+     95,
+     100,
+     90,
+     96
+    ],
+    [
+     95,
+     88,
+     93,
+     95,
+     96
+    ],
+    [
+     85,
+     90,
+     90,
+     83,
+     91
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 11,
+   "mes": "2026-07",
+   "frequencia": 88.3,
+   "atividadesTotal": 17,
+   "atividadesConcluidas": 11,
+   "mapa": [
+    [
+     87,
+     87,
+     80,
+     87,
+     88
+    ],
+    [
+     85,
+     92,
+     86,
+     92,
+     87
+    ],
+    [
+     87,
+     96,
+     94,
+     96,
+     92
+    ],
+    [
+     89,
+     85,
+     93,
+     84,
+     83
+    ],
+    [
+     86,
+     81,
+     87,
+     82,
+     85
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 11,
+   "mes": "2026-08",
+   "frequencia": 90.9,
+   "atividadesTotal": 17,
+   "atividadesConcluidas": 11,
+   "mapa": [
+    [
+     83,
+     86,
+     85,
+     93,
+     94
+    ],
+    [
+     89,
+     94,
+     88,
+     86,
+     93
+    ],
+    [
+     99,
+     96,
+     94,
+     98,
+     95
+    ],
+    [
+     93,
+     88,
+     86,
+     92,
+     96
+    ],
+    [
+     80,
+     88,
+     91,
+     83,
+     79
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 11,
+   "mes": "2026-09",
+   "frequencia": 94.1,
+   "atividadesTotal": 19,
+   "atividadesConcluidas": 13,
+   "mapa": [
+    [
+     90,
+     95,
+     91,
+     98,
+     94
+    ],
+    [
+     99,
+     90,
+     90,
+     92,
+     93
+    ],
+    [
+     94,
+     92,
+     100,
+     99,
+     97
+    ],
+    [
+     91,
+     93,
+     100,
+     97,
+     89
+    ],
+    [
+     91,
+     85,
+     91,
+     94,
+     86
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 12,
+   "mes": "2026-03",
+   "frequencia": 92.6,
+   "atividadesTotal": 20,
+   "atividadesConcluidas": 13,
+   "mapa": [
+    [
+     95,
+     91,
+     95,
+     96,
+     94
+    ],
+    [
+     99,
+     95,
+     95,
+     99,
+     91
+    ],
+    [
+     99,
+     95,
+     89,
+     90,
+     98
+    ],
+    [
+     91,
+     90,
+     88,
+     91,
+     88
+    ],
+    [
+     85,
+     92,
+     81,
+     92,
+     88
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 12,
+   "mes": "2026-04",
+   "frequencia": 92.8,
+   "atividadesTotal": 14,
+   "atividadesConcluidas": 9,
+   "mapa": [
+    [
+     96,
+     97,
+     95,
+     93,
+     86
+    ],
+    [
+     89,
+     95,
+     93,
+     91,
+     100
+    ],
+    [
+     94,
+     95,
+     97,
+     99,
+     100
+    ],
+    [
+     89,
+     89,
+     96,
+     94,
+     91
+    ],
+    [
+     89,
+     87,
+     84,
+     81,
+     84
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 12,
+   "mes": "2026-05",
+   "frequencia": 94.4,
+   "atividadesTotal": 14,
+   "atividadesConcluidas": 10,
+   "mapa": [
+    [
+     92,
+     89,
+     95,
+     89,
+     95
+    ],
+    [
+     94,
+     100,
+     93,
+     91,
+     98
+    ],
+    [
+     95,
+     99,
+     98,
+     91,
+     100
+    ],
+    [
+     90,
+     100,
+     94,
+     99,
+     95
+    ],
+    [
+     87,
+     87,
+     93,
+     91,
+     86
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 12,
+   "mes": "2026-06",
+   "frequencia": 94.9,
+   "atividadesTotal": 14,
+   "atividadesConcluidas": 9,
+   "mapa": [
+    [
+     91,
+     95,
+     89,
+     93,
+     93
+    ],
+    [
+     100,
+     100,
+     91,
+     91,
+     94
+    ],
+    [
+     92,
+     93,
+     98,
+     93,
+     100
+    ],
+    [
+     91,
+     99,
+     90,
+     95,
+     95
+    ],
+    [
+     86,
+     91,
+     88,
+     93,
+     92
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 12,
+   "mes": "2026-07",
+   "frequencia": 90.7,
+   "atividadesTotal": 20,
+   "atividadesConcluidas": 12,
+   "mapa": [
+    [
+     90,
+     87,
+     92,
+     89,
+     91
+    ],
+    [
+     87,
+     87,
+     98,
+     94,
+     91
+    ],
+    [
+     94,
+     88,
+     91,
+     88,
+     88
+    ],
+    [
+     85,
+     95,
+     86,
+     91,
+     89
+    ],
+    [
+     87,
+     83,
+     79,
+     90,
+     84
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 12,
+   "mes": "2026-08",
+   "frequencia": 93.8,
+   "atividadesTotal": 15,
+   "atividadesConcluidas": 9,
+   "mapa": [
+    [
+     89,
+     90,
+     96,
+     94,
+     95
+    ],
+    [
+     89,
+     89,
+     90,
+     90,
+     98
+    ],
+    [
+     90,
+     100,
+     100,
+     100,
+     90
+    ],
+    [
+     91,
+     93,
+     96,
+     93,
+     94
+    ],
+    [
+     92,
+     91,
+     92,
+     84,
+     89
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 12,
+   "mes": "2026-09",
+   "frequencia": 97.0,
+   "atividadesTotal": 15,
+   "atividadesConcluidas": 10,
+   "mapa": [
+    [
+     91,
+     96,
+     100,
+     90,
+     92
+    ],
+    [
+     95,
+     100,
+     98,
+     96,
+     98
+    ],
+    [
+     100,
+     96,
+     99,
+     100,
+     99
+    ],
+    [
+     97,
+     95,
+     96,
+     100,
+     92
+    ],
+    [
+     86,
+     86,
+     89,
+     95,
+     90
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 13,
+   "mes": "2026-03",
+   "frequencia": 90.7,
+   "atividadesTotal": 14,
+   "atividadesConcluidas": 9,
+   "mapa": [
+    [
+     88,
+     90,
+     84,
+     87,
+     88
+    ],
+    [
+     90,
+     94,
+     98,
+     91,
+     87
+    ],
+    [
+     96,
+     97,
+     89,
+     92,
+     95
+    ],
+    [
+     90,
+     89,
+     90,
+     93,
+     90
+    ],
+    [
+     81,
+     80,
+     82,
+     81,
+     79
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 13,
+   "mes": "2026-04",
+   "frequencia": 91.6,
+   "atividadesTotal": 12,
+   "atividadesConcluidas": 7,
+   "mapa": [
+    [
+     94,
+     91,
+     95,
+     85,
+     91
+    ],
+    [
+     91,
+     92,
+     92,
+     92,
+     92
+    ],
+    [
+     99,
+     95,
+     98,
+     90,
+     91
+    ],
+    [
+     88,
+     91,
+     86,
+     93,
+     98
+    ],
+    [
+     81,
+     85,
+     83,
+     90,
+     82
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 13,
+   "mes": "2026-05",
+   "frequencia": 92.0,
+   "atividadesTotal": 19,
+   "atividadesConcluidas": 13,
+   "mapa": [
+    [
+     88,
+     88,
+     89,
+     87,
+     93
+    ],
+    [
+     89,
+     94,
+     88,
+     97,
+     95
+    ],
+    [
+     96,
+     92,
+     99,
+     98,
+     93
+    ],
+    [
+     90,
+     94,
+     97,
+     88,
+     86
+    ],
+    [
+     86,
+     84,
+     81,
+     92,
+     82
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 13,
+   "mes": "2026-06",
+   "frequencia": 92.8,
+   "atividadesTotal": 15,
+   "atividadesConcluidas": 10,
+   "mapa": [
+    [
+     93,
+     89,
+     87,
+     96,
+     86
+    ],
+    [
+     94,
+     93,
+     99,
+     91,
+     88
+    ],
+    [
+     92,
+     92,
+     89,
+     90,
+     94
+    ],
+    [
+     92,
+     91,
+     96,
+     95,
+     94
+    ],
+    [
+     86,
+     87,
+     86,
+     90,
+     82
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 13,
+   "mes": "2026-07",
+   "frequencia": 89.5,
+   "atividadesTotal": 19,
+   "atividadesConcluidas": 13,
+   "mapa": [
+    [
+     92,
+     90,
+     83,
+     83,
+     86
+    ],
+    [
+     92,
+     86,
+     93,
+     86,
+     93
+    ],
+    [
+     89,
+     89,
+     88,
+     92,
+     91
+    ],
+    [
+     95,
+     91,
+     88,
+     85,
+     93
+    ],
+    [
+     88,
+     83,
+     83,
+     83,
+     79
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 13,
+   "mes": "2026-08",
+   "frequencia": 92.2,
+   "atividadesTotal": 20,
+   "atividadesConcluidas": 12,
+   "mapa": [
+    [
+     85,
+     86,
+     88,
+     87,
+     94
+    ],
+    [
+     93,
+     95,
+     89,
+     88,
+     91
+    ],
+    [
+     94,
+     98,
+     88,
+     96,
+     98
+    ],
+    [
+     90,
+     90,
+     88,
+     88,
+     93
+    ],
+    [
+     89,
+     87,
+     83,
+     83,
+     82
+    ]
+   ]
+  },
+  {
+   "disciplinaId": 13,
+   "mes": "2026-09",
+   "frequencia": 95.4,
+   "atividadesTotal": 13,
+   "atividadesConcluidas": 9,
+   "mapa": [
+    [
+     92,
+     93,
+     93,
+     91,
+     98
+    ],
+    [
+     100,
+     100,
+     97,
+     97,
+     94
+    ],
+    [
+     97,
+     100,
+     100,
+     99,
+     100
+    ],
+    [
+     90,
+     97,
+     93,
+     100,
+     96
+    ],
+    [
+     92,
+     86,
+     90,
+     95,
+     91
+    ]
+   ]
+  }
+ ],
+ "assistente": {
+  "conversas": [
+   {
+    "id": "c1",
+    "titulo": "Relatório de participação de setembro",
+    "data": "2026-09-30",
+    "perguntas": [
+     "Gere um relatório de participação do mês de setembro, com gráficos.",
+     "Compare com agosto."
+    ]
+   },
+   {
+    "id": "c2",
+    "titulo": "Comparar turmas de Programação",
+    "data": "2026-09-29",
+    "perguntas": [
+     "Comparar turmas de Programação"
+    ]
+   },
+   {
+    "id": "c3",
+    "titulo": "Por que o engajamento caiu?",
+    "data": "2026-09-28",
+    "perguntas": [
+     "Por que o engajamento caiu?"
+    ]
+   },
+   {
+    "id": "c4",
+    "titulo": "Projetos atrasados",
+    "data": "2026-09-25",
+    "perguntas": [
+     "Projetos atrasados"
+    ]
+   }
+  ],
+  "relatorios": [
+   {
+    "id": "r1",
+    "nome": "Participação_Set2026.pdf",
+    "data": "2026-09-30",
+    "periodo": "set",
+    "grupo": "Todos"
+   },
+   {
+    "id": "r2",
+    "nome": "Projetos_Sem2026-2.pdf",
+    "data": "2026-09-30",
+    "periodo": "semestre",
+    "grupo": "Todos"
+   },
+   {
+    "id": "r3",
+    "nome": "Frequência_Ago2026.pdf",
+    "data": "2026-08-31",
+    "periodo": "ago",
+    "grupo": "Todos"
+   }
+  ],
+  "periodos": [
+   {
+    "id": "set",
+    "rotulo": "Set 2026",
+    "meses": [
+     "2026-09"
+    ]
+   },
+   {
+    "id": "ago",
+    "rotulo": "Ago 2026",
+    "meses": [
+     "2026-08"
+    ]
+   },
+   {
+    "id": "jul",
+    "rotulo": "Jul 2026",
+    "meses": [
+     "2026-07"
+    ]
+   },
+   {
+    "id": "semestre",
+    "rotulo": "Semestre",
+    "meses": [
+     "2026-08",
+     "2026-09"
+    ]
+   }
+  ],
+  "grupos": [
+   "Todos",
+   "Programação",
+   "Design",
+   "Dados"
+  ],
+  "sugestoes": [
+   "Comparar turmas",
+   "Projetos atrasados",
+   "Por que o engajamento caiu?",
+   "Resumo do semestre"
+  ]
+ }
+}
