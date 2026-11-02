@@ -58,7 +58,7 @@ TF.boot('login', (root) => {
 
     root.append(el('div', { class: 'login' },
       el('section', { class: 'login-art', 'aria-label': 'Apresentação' },
-        el('div', { class: 'foot-brand' }, el('span', { class: 'plate' }, logoImg()), el('span', { class: 'logo-nome' }, 'Tech', el('span', {}, 'Fatec'))),
+        el('div', { class: 'login-brand' }, el('div', { class: 'plate plate-col plate-lg' }, logoImg(), nomeApp())),
         el('div', {}, el('p', { class: 'kick' }, 'Gestão acadêmica integrada'),
           el('h1', {}, 'Dados que fortalecem a comunidade FATEC.'),
           el('p', { class: 'lead' }, 'Acompanhe indicadores, organize grupos e tome decisões com uma visão completa da participação acadêmica.')),

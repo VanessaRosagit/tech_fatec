@@ -257,7 +257,7 @@ html.hc .foot h2 { color: var(--laranja); }
 /* ---------- login ---------- */
 .login { display: grid; grid-template-columns: 1fr 1fr; min-height: 100vh; }
 .login-art { background: var(--verde-preto); color: #fff; padding: 3rem 3.4rem; display: flex; flex-direction: column; justify-content: space-between; }
-.login-art .kick { font-size: .56rem; letter-spacing: .22em; text-transform: uppercase; color: var(--verm-escuro-bg); margin: 0 0 1rem; }
+.login-art .kick { font-size: .56rem; letter-spacing: .22em; text-transform: uppercase; color: var(--laranja); margin: 0 0 1rem; }
 .login-art h1 { font-family: var(--serif); font-weight: 600; font-size: clamp(2.4rem, 4.4vw, 3.5rem); line-height: 1.05; margin: 0 0 1.2rem; }
 .login-art p.lead { color: #e6e6e6; font-size: .78rem; max-width: 19rem; }
 .login-art .stats { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--verde-suave); border-bottom: 1px solid var(--verde-suave); }
@@ -384,3 +384,30 @@ html.hc .foot h2 { color: var(--laranja); }
 .plate-col .logo-img { mix-blend-mode: multiply; }
 .plate-col .logo-nome { color: var(--vermelho); }
 .foot .plate-col .logo-nome span { color: var(--vermelho); }
+
+.plate-lg { padding: 1rem 1.4rem .9rem; border-radius: 12px; }
+.plate-lg .logo-img { height: 3.4rem; }
+.plate-lg .logo-img.logo-cps { height: 2.9rem; }
+.plate-lg .logo-nome { font-size: 1.7rem; }
+.login-brand { display: block; }
+@media (max-width: 860px) {
+  .login-art { min-height: 0; }
+  .login-art h1 { font-size: clamp(2rem, 9vw, 2.6rem); }
+  .login-form { padding: 2rem 1.2rem 2.4rem; }
+}
+@media (max-width: 480px) {
+  .plate-lg { padding: .8rem 1rem .7rem; }
+  .plate-lg .logo-img { height: 2.6rem; }
+  .plate-lg .logo-img.logo-cps { height: 2.2rem; }
+  .plate-lg .logo-nome { font-size: 1.4rem; }
+  .login-art { padding: 1.4rem 1.1rem; gap: 1.4rem; }
+  .login-art .stats b { font-size: 1.25rem; }
+  .login-art .stats div { padding: .8rem 0 .8rem .6rem; }
+  .row-between { flex-wrap: wrap; }
+  .top .logos { gap: .5rem; } .top .logo-img { height: 2rem; } .top .logo-img.logo-cps { height: 1.7rem; }
+  .top .logo-nome { display: none; }
+  .foot .wrap { grid-template-columns: 1fr; gap: 1.4rem; }
+  .plate-col .logo-img { height: 2.4rem; } .plate-col .logo-img.logo-cps { height: 2rem; }
+  .kpis.c3, .kpis.c5 { grid-template-columns: 1fr; }
+  h1.title { font-size: clamp(1.9rem, 9vw, 2.4rem); }
+}
